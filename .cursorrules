@@ -1,0 +1,109 @@
+# Hugo Tech Blog - Cursor Rules
+
+## プロジェクト概要
+このプロジェクトはHugoを使用したtech系ブログサイトです。Lilian Wengのサイトのようなクリーンでモダンなデザインを採用しています。
+
+## ディレクトリ構造
+```
+4thave344/
+├── content/           # コンテンツファイル（Markdown）
+├── layouts/          # テンプレートファイル（HTML）
+├── static/           # 静的ファイル（CSS、JS、画像）
+├── themes/           # テーマファイル
+├── public/           # ビルド出力先
+├── hugo.toml         # Hugo設定ファイル
+└── .cursorrules      # このファイル
+```
+
+## 主要設定ファイル
+
+### hugo.toml
+- サイトの基本設定（タイトル、URL、言語など）
+- メニュー設定
+- パラメータ設定（著者、説明、キーワード）
+
+### レイアウトファイル
+- `layouts/_default/baseof.html`: ベースレイアウト
+- `layouts/index.html`: ホームページレイアウト
+- `layouts/_default/single.html`: 記事ページレイアウト
+
+### CSSファイル
+- `static/css/main.css`: メインスタイルシート
+
+## 開発ルール
+
+### 1. コンテンツ作成
+- 新しい記事は `content/` ディレクトリにMarkdownファイルとして作成
+- フロントマターに以下を含める：
+  ```yaml
+  ---
+  title: "記事タイトル"
+  date: YYYY-MM-DDTHH:MM:SSZ
+  draft: false
+  tags: ["タグ1", "タグ2"]
+  author: "著者名"
+  ---
+  ```
+
+### 2. レイアウト編集
+- レイアウトファイルは `layouts/` ディレクトリで管理
+- Hugoテンプレート構文を使用
+- レスポンシブデザインを維持
+
+### 3. スタイル編集
+- CSSは `static/css/main.css` で管理
+- モダンなCSS（Flexbox、Grid）を使用
+- カラーパレット：
+  - プライマリ: #3498db
+  - テキスト: #2c3e50
+  - セカンダリ: #7f8c8d
+  - 背景: #ffffff
+
+### 4. ビルドとテスト
+- 開発サーバー: `hugo server`
+- 本番ビルド: `hugo`
+- 出力先: `public/` ディレクトリ
+
+## コーディング規約
+
+### HTML
+- セマンティックなHTML5要素を使用
+- アクセシビリティを考慮
+- 適切なmetaタグを設定
+
+### CSS
+- BEM記法を参考にしたクラス命名
+- モバイルファーストのレスポンシブデザイン
+- CSS変数を使用してテーマを管理
+
+### Markdown
+- 標準的なMarkdown記法を使用
+- コードブロックには言語指定を追加
+- 画像は `static/images/` に配置
+
+## よく使用するコマンド
+
+```bash
+# 開発サーバー起動
+hugo server
+
+# 本番ビルド
+hugo
+
+# ドラフト記事も含めてビルド
+hugo --buildDrafts
+
+# 新しい記事作成
+hugo new posts/記事名.md
+```
+
+## 注意事項
+- `public/` ディレクトリは自動生成されるため、直接編集しない
+- レイアウトファイルを変更した後は、必ずビルドテストを実行
+- 新しい記事を追加した後は、ナビゲーションメニューの更新を検討
+- 画像ファイルは `static/images/` に配置し、相対パスで参照
+
+## デバッグ
+- Hugoのログレベルを上げる: `hugo server --logLevel debug`
+- ビルドエラーが発生した場合、レイアウトファイルの構文を確認
+- コンテンツファイルのフロントマターの構文を確認

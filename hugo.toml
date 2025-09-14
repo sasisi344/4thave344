@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja'
+title = 'Tech Blog'
+
+[params]
+  author = "Tech Writer"
+  description = "技術ブログと学習ノート"
+  keywords = ["tech", "programming", "ai", "machine learning"]
+  
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "記事"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "アーカイブ"
+    url = "/archive/"
+    weight = 3
+  [[menu.main]]
+    name = "タグ"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    name = "検索"
+    url = "/search/"
+    weight = 5
