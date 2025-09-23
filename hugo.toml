@@ -1,11 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://344blog.4thavenue.info'
 languageCode = 'ja'
-title = 'Tech Blog'
+title = '34feed'
+theme = 'hugo-theme-stack'
 
 [params]
-  author = "Tech Writer"
-  description = "技術ブログと学習ノート"
+  author = "さしし@sasisi344"
+  description = "自分のインプットをアウトプットする感じの雑記ブログです。"
   keywords = ["tech", "programming", "ai", "machine learning"]
+  mainSections = ["tech", "blog", "news"]
+
+[params.Author]
+  name = "さしし@sasisi344"
+  email = "sasisi344@gmail.com"
   
 [menu]
   [[menu.main]]
@@ -14,11 +20,11 @@ title = 'Tech Blog'
     weight = 1
   [[menu.main]]
     name = "記事"
-    url = "/posts/"
+    url = "/archives/"
     weight = 2
   [[menu.main]]
     name = "アーカイブ"
-    url = "/archive/"
+    url = "/archives/"
     weight = 3
   [[menu.main]]
     name = "タグ"

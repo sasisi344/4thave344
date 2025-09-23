@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>テスト on Tech Blog</title>
-    <link>http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/</link>
-    <description>Recent content in テスト on Tech Blog</description>
-    <generator>Hugo</generator>
-    <language>ja</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>テストページ</title>
-      <link>http://localhost:1313/test-page/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test-page/</guid>
-      <description>&lt;h1 id=&#34;テストページ&#34;&gt;テストページ&lt;/h1&gt;&#xA;&lt;p&gt;このページはHugoの動作確認用です。&lt;/p&gt;&#xA;&lt;h2 id=&#34;テスト項目&#34;&gt;テスト項目&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Markdownの基本機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;太字テキスト&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜体テキスト&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;コードブロック&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;リスト機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;項目1&lt;/li&gt;&#xA;&lt;li&gt;項目2&lt;/li&gt;&#xA;&lt;li&gt;項目3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;リンク機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;ホームページに戻る&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;コードブロックのテスト&#34;&gt;コードブロックのテスト&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;Hello Hugo!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;これはテスト用のHTMLコードです。&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このページが正常に表示されていれば、Hugoのビルドとレンダリングが正常に動作しています。&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>テスト on 34feed</title>
+        <link>http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/</link>
+        <description>Recent content in テスト on 34feed</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <managingEditor>example@example.com (さしし@sasisi344)</managingEditor>
+        <webMaster>example@example.com (さしし@sasisi344)</webMaster>
+        <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%86%E3%82%B9%E3%83%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>テストページ</title>
+        <link>http://localhost:1313/test-page/</link>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+        <author>example@example.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/test-page/</guid>
+        <description>&lt;h1 id=&#34;テストページ&#34;&gt;テストページ
+&lt;/h1&gt;&lt;p&gt;このページはHugoの動作確認用です。&lt;/p&gt;
+&lt;h2 id=&#34;テスト項目&#34;&gt;テスト項目
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Markdownの基本機能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;太字テキスト&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;斜体テキスト&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;コードブロック&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;リスト機能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;項目1&lt;/li&gt;
+&lt;li&gt;項目2&lt;/li&gt;
+&lt;li&gt;項目3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;リンク機能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/&#34; &gt;ホームページに戻る&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;コードブロックのテスト&#34;&gt;コードブロックのテスト
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;Hello Hugo!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;これはテスト用のHTMLコードです。&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このページが正常に表示されていれば、Hugoのビルドとレンダリングが正常に動作しています。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

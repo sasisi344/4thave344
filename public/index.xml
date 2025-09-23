@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ようこそ on Tech Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in ようこそ on Tech Blog</description>
-    <generator>Hugo</generator>
-    <language>ja</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>テストページ</title>
-      <link>http://localhost:1313/test-page/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test-page/</guid>
-      <description>&lt;h1 id=&#34;テストページ&#34;&gt;テストページ&lt;/h1&gt;&#xA;&lt;p&gt;このページはHugoの動作確認用です。&lt;/p&gt;&#xA;&lt;h2 id=&#34;テスト項目&#34;&gt;テスト項目&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Markdownの基本機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;太字テキスト&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜体テキスト&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;コードブロック&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;リスト機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;項目1&lt;/li&gt;&#xA;&lt;li&gt;項目2&lt;/li&gt;&#xA;&lt;li&gt;項目3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;リンク機能&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;ホームページに戻る&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;コードブロックのテスト&#34;&gt;コードブロックのテスト&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;Hello Hugo!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;これはテスト用のHTMLコードです。&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このページが正常に表示されていれば、Hugoのビルドとレンダリングが正常に動作しています。&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>ようこそ on 34feed</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content in ようこそ on 34feed</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <managingEditor>example@example.com (さしし@sasisi344)</managingEditor>
+        <webMaster>example@example.com (さしし@sasisi344)</webMaster>
+        <lastBuildDate>Tue, 23 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>軽量な画像最適化パイプラインをHugoで作る</title>
+        <link>http://localhost:1313/tech/sample-tech/</link>
+        <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
+        <author>example@example.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tech/sample-tech/</guid>
+        <description>&lt;p&gt;Hugo Extendedには画像処理機能が備わっており、外部の最適化ツールに頼らずにサイズ削減やフォーマット変換を行えます。たとえば、&lt;code&gt;resources.Get&lt;/code&gt;で画像を読み込み、&lt;code&gt;Fit&lt;/code&gt;や&lt;code&gt;Resize&lt;/code&gt;で派生画像を生成し、&lt;code&gt;fingerprint&lt;/code&gt;でキャッシュバスティングされたURLを得る、という流れが最小構成です。加えて&lt;code&gt;imaging&lt;/code&gt;の品質指定を活用し、サムネイルはWebP、高解像はAVIFなど用途ごとに出し分けます。テンプレート側では&lt;code&gt;srcset&lt;/code&gt;と&lt;code&gt;sizes&lt;/code&gt;を丁寧に定義し、CLSを避けるためにwidth/height属性を必ず付与します。記事内画像は&lt;code&gt;figure&lt;/code&gt;のラッパーを用意してキャプションと一緒に扱うと再利用性が上がります。最終的に、不要な巨大画像の取り込みを避け、LCP要素の画像のみ先にプリロードすることで、初期描画を大きく改善できます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>朝のルーティンを10分だけ整える実験</title>
+        <link>http://localhost:1313/blog/sample-daily/</link>
+        <pubDate>Tue, 23 Sep 2025 07:30:00 +0000</pubDate>
+        <author>example@example.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/blog/sample-daily/</guid>
+        <description>&lt;p&gt;ここ数週間、出社前（在宅日の場合は業務開始前）の10分を固定化する実験をしている。内容はシンプルで、1）窓辺での深呼吸と一杯の水、2）3分の散歩またはストレッチ、3）今日やらないことを含めた箇条書きメモ。ポイントは「完璧を狙わない」ことと、「終了条件を明確にする」こと。10分を超えそうなら切り上げるし、天気が悪ければ屋内の軽い運動に置き換える。結果として、午前の集中開始がスムーズになり、メールや通知に引きずられにくくなった。実験は継続中だが、続けるコツは前夜の準備と、達成ハードルを下げることだと感じている。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hugo 0.150 リリース：拡張版の画像処理が高速化</title>
+        <link>http://localhost:1313/news/sample-news/</link>
+        <pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate>
+        <author>example@example.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/news/sample-news/</guid>
+        <description>&lt;p&gt;Hugo 0.150 が公開された。注目はExtended版での画像処理パイプラインの最適化だ。WebP/AVIFの生成時に内部バッファの扱いが改善され、大規模サイトでのビルド時間が短縮されたとの報告が上がっている。合わせて、テンプレート関連では一部の無効な&lt;code&gt;relURL&lt;/code&gt;利用時の警告が整理され、&lt;code&gt;where&lt;/code&gt;フィルターの挙動がドキュメントに沿う形で安定した。モジュール周りではバージョン解決のログがわかりやすくなり、CIでのトラブルシュートが容易になった。既存サイトの互換性は概ね良好だが、SCSSのコンパイラ設定をカスタムしている場合は注意が必要。アップデート前に&lt;code&gt;hugo version&lt;/code&gt;で拡張版が有効か確認し、&lt;code&gt;hugo mod tidy&lt;/code&gt;で依存を整理してから移行すると安全だ。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
