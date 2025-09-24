@@ -1,0 +1,12 @@
+# Multilingual support configuration
+[ja]
+languageName = "日本語"
+languagedirection = "ltr"
+title = "34feed"
+weight = 1
+
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "34feed"
+weight = 2

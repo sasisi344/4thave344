@@ -1,0 +1,24 @@
+# Configure main menu and social menu
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = true
+
+[[social]]
+identifier = "x"
+name = "X"
+url = "https://x.com/sasisi344"
+
+[social.params]
+icon = "brand-twitter"
+
+[[social]]
+identifier = "threads"
+name = "Threads"
+url = "https://www.threads.com/@sasisi344"
+
+[social.params]
+icon = "brand-instagram"

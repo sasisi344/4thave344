@@ -1,19 +1,30 @@
 +++
+# 基本情報
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 
-# 記事メタ
-description = ''
-summary = ''
-author = ''
-categories = []
-tags = []
+# 必須項目
+categories = []  # tech/daily/news/blogのいずれか
+tags = []  # 最低3つ、関連性の高いタグ
+author = "さしし"
+description = ''  # 160文字以内、SEO用
+summary = ''  # 200文字以内、一覧表示用
+thumbnail = ''  # static/images/配下の相対パス
 
-# サムネイル画像（相対パス推奨: static/images/ 配下）
-# 例: "images/thumbnail.jpg"
-thumbnail = ''
+# 推奨項目
+images = []  # OGP用画像配列
+weight = 3  # 記事の重要度（1-5）
+lastmod = '{{ .Date }}'  # 最終更新日
+publishDate = '{{ .Date }}'  # 公開日
+slug = ''  # カスタムURL
 
-# OGP用に複数画像を渡したい場合（任意）
-images = []
+# 表示設定
+showToc = true  # 目次表示
+showBreadcrumb = true  # パンくずリスト表示
+showReadingTime = true  # 読了時間表示
+
+# 機能設定
+comments = true  # コメント機能
+related = true  # 関連記事の表示
 +++

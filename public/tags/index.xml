@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 34feed</title>
+        <title>Tags on Hugo Theme Stack Starter</title>
         <link>http://localhost:1313/tags/</link>
-        <description>Recent content in Tags on 34feed</description>
+        <description>Recent content in Tags on Hugo Theme Stack Starter</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <managingEditor>example@example.com (さしし@sasisi344)</managingEditor>
-        <webMaster>example@example.com (さしし@sasisi344)</webMaster>
+        <language>en-us</language>
+        <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
+        <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
         <lastBuildDate>Tue, 23 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo</title>
         <link>http://localhost:1313/tags/hugo/</link>
         <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/hugo/</guid>
         <description></description>
         </item>
@@ -20,7 +20,7 @@
         <title>パフォーマンス</title>
         <link>http://localhost:1313/tags/%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9/</link>
         <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9/</guid>
         <description></description>
         </item>
@@ -28,7 +28,7 @@
         <title>画像最適化</title>
         <link>http://localhost:1313/tags/%E7%94%BB%E5%83%8F%E6%9C%80%E9%81%A9%E5%8C%96/</link>
         <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E7%94%BB%E5%83%8F%E6%9C%80%E9%81%A9%E5%8C%96/</guid>
         <description></description>
         </item>
@@ -36,7 +36,7 @@
         <title>タイムマネジメント</title>
         <link>http://localhost:1313/tags/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link>
         <pubDate>Tue, 23 Sep 2025 07:30:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</guid>
         <description></description>
         </item>
@@ -44,7 +44,7 @@
         <title>生産性</title>
         <link>http://localhost:1313/tags/%E7%94%9F%E7%94%A3%E6%80%A7/</link>
         <pubDate>Tue, 23 Sep 2025 07:30:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E7%94%9F%E7%94%A3%E6%80%A7/</guid>
         <description></description>
         </item>
@@ -52,7 +52,7 @@
         <title>習慣化</title>
         <link>http://localhost:1313/tags/%E7%BF%92%E6%85%A3%E5%8C%96/</link>
         <pubDate>Tue, 23 Sep 2025 07:30:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E7%BF%92%E6%85%A3%E5%8C%96/</guid>
         <description></description>
         </item>
@@ -60,8 +60,48 @@
         <title>リリースノート</title>
         <link>http://localhost:1313/tags/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/</link>
         <pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tags/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Css</title>
+        <link>http://localhost:1313/tags/css/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Html</title>
+        <link>http://localhost:1313/tags/html/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Markdown</title>
+        <link>http://localhost:1313/tags/markdown/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>http://localhost:1313/tags/themes/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tags/themes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Example Tag</title>
+        <link>http://localhost:1313/tags/example-tag/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>http://localhost:1313/tags/example-tag/</guid>
         <description></description>
         </item>
         

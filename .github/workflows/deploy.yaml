@@ -1,45 +1,48 @@
-name: Smart Deploy to Xserver
+# ワークフローの名前（GitHub上で表示される名前）
+name: ブログをXserverにデプロイ
+
+# いつ実行するか（mainブランチにプッシュされたとき）
 on:
   push:
     branches: [ main ]
 
+# 実行する処理
 jobs:
   deploy:
+    # Ubuntu環境で実行
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
     
-    - name: Setup Hugo
+    steps:
+    # ステップ1: ソースコードをダウンロード
+    - name: リポジトリのコードを取得
+      uses: actions/checkout@v4
+    
+    # ステップ2: Hugoをインストール
+    - name: Hugoをセットアップ
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
         extended: true
     
-    - name: Build
+    # ステップ3: ブログをビルド（HTMLファイルを生成）
+    - name: ブログをビルド
       run: hugo --minify
     
-    - name: Get changed files
-      id: changed-files
-      uses: tj-actions/changed-files@v40
-      with:
-        files: |
-          content/**
-          static/**
-          layouts/**
-          config.yaml
-    
-    - name: Deploy only changed files
-      if: steps.changed-files.outputs.any_changed == 'true'
+    # ステップ4: Xserverにファイルをアップロード
+    - name: Xserverにデプロイ
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public/
-        server-dir: /4thavenue.info/public_html/344blog/
-        dry-run: false
+        local-dir: ./public/          # Hugoが生成したファイルの場所
+        server-dir: /4thavenue.info/public_html/344blog/    # Xserverのアップロード先
+        delete-excluded: true         # 除外ファイルを削除
+        dangerous-clean-slate: true   # サーバー上の余分なファイルを削除
         exclude: |
           **/.git*
           **/.git*/**
+          **/node_modules/**
+          .htaccess                   # .htaccessは削除しない
+          cgi-bin/                    # cgi-binフォルダは削除しない          
+       

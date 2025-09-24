@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Hugo on 34feed</title>
+        <title>Hugo on Hugo Theme Stack Starter</title>
         <link>http://localhost:1313/tags/hugo/</link>
-        <description>Recent content in Hugo on 34feed</description>
+        <description>Recent content in Hugo on Hugo Theme Stack Starter</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <managingEditor>example@example.com (さしし@sasisi344)</managingEditor>
-        <webMaster>example@example.com (さしし@sasisi344)</webMaster>
+        <language>en-us</language>
+        <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
+        <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
         <lastBuildDate>Tue, 23 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>軽量な画像最適化パイプラインをHugoで作る</title>
         <link>http://localhost:1313/tech/sample-tech/</link>
         <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/tech/sample-tech/</guid>
         <description>&lt;p&gt;Hugo Extendedには画像処理機能が備わっており、外部の最適化ツールに頼らずにサイズ削減やフォーマット変換を行えます。たとえば、&lt;code&gt;resources.Get&lt;/code&gt;で画像を読み込み、&lt;code&gt;Fit&lt;/code&gt;や&lt;code&gt;Resize&lt;/code&gt;で派生画像を生成し、&lt;code&gt;fingerprint&lt;/code&gt;でキャッシュバスティングされたURLを得る、という流れが最小構成です。加えて&lt;code&gt;imaging&lt;/code&gt;の品質指定を活用し、サムネイルはWebP、高解像はAVIFなど用途ごとに出し分けます。テンプレート側では&lt;code&gt;srcset&lt;/code&gt;と&lt;code&gt;sizes&lt;/code&gt;を丁寧に定義し、CLSを避けるためにwidth/height属性を必ず付与します。記事内画像は&lt;code&gt;figure&lt;/code&gt;のラッパーを用意してキャプションと一緒に扱うと再利用性が上がります。最終的に、不要な巨大画像の取り込みを避け、LCP要素の画像のみ先にプリロードすることで、初期描画を大きく改善できます。&lt;/p&gt;
 </description>
@@ -21,7 +21,7 @@
         <title>Hugo 0.150 リリース：拡張版の画像処理が高速化</title>
         <link>http://localhost:1313/news/sample-news/</link>
         <pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate>
-        <author>example@example.com (さしし@sasisi344)</author>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>http://localhost:1313/news/sample-news/</guid>
         <description>&lt;p&gt;Hugo 0.150 が公開された。注目はExtended版での画像処理パイプラインの最適化だ。WebP/AVIFの生成時に内部バッファの扱いが改善され、大規模サイトでのビルド時間が短縮されたとの報告が上がっている。合わせて、テンプレート関連では一部の無効な&lt;code&gt;relURL&lt;/code&gt;利用時の警告が整理され、&lt;code&gt;where&lt;/code&gt;フィルターの挙動がドキュメントに沿う形で安定した。モジュール周りではバージョン解決のログがわかりやすくなり、CIでのトラブルシュートが容易になった。既存サイトの互換性は概ね良好だが、SCSSのコンパイラ設定をカスタムしている場合は注意が必要。アップデート前に&lt;code&gt;hugo version&lt;/code&gt;で拡張版が有効か確認し、&lt;code&gt;hugo mod tidy&lt;/code&gt;で依存を整理してから移行すると安全だ。&lt;/p&gt;
 </description>

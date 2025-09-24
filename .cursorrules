@@ -41,7 +41,7 @@
   date: YYYY-MM-DDTHH:MM:SSZ
   draft: false
   tags: ["タグ1", "タグ2"]
-  author: "著者名"
+  author: "さしし"
   ---
   ```
 
@@ -102,6 +102,83 @@ hugo new posts/記事名.md
 - レイアウトファイルを変更した後は、必ずビルドテストを実行
 - 新しい記事を追加した後は、ナビゲーションメニューの更新を検討
 - 画像ファイルは `static/images/` に配置し、相対パスで参照
+
+## ブログ記事作成ガイドライン
+
+### フロントマター必須項目
+記事作成時は以下のフロントマターを必ず設定してください：
+
+```yaml
+---
+title: "記事タイトル（60文字以内推奨）"
+date: YYYY-MM-DDTHH:MM:SSZ
+draft: false  # 公開時はfalse、下書き時はtrue
+categories: ["カテゴリ名"]  # 必須：tech/daily/news/blogのいずれか
+tags: ["タグ1", "タグ2", "タグ3"]  # 必須：最低3つ、関連性の高いタグ
+author: "さしし"  # 必須
+description: "記事の説明文（160文字以内、SEO用）"  # 必須
+summary: "記事の要約（200文字以内、一覧表示用）"  # 必須
+thumbnail: "images/thumbnail.jpg"  # 必須：static/images/配下の相対パス
+images: ["images/og-image.jpg"]  # 推奨：OGP用画像
+---
+```
+
+### フロントマター推奨項目
+```yaml
+---
+# 記事の重要度（1-5、デフォルト3）
+weight: 3
+
+# 記事の最終更新日
+lastmod: YYYY-MM-DDTHH:MM:SSZ
+
+# 記事の公開日（dateと異なる場合）
+publishDate: YYYY-MM-DDTHH:MM:SSZ
+
+# 記事の有効期限（期限付きコンテンツ用）
+expiryDate: YYYY-MM-DDTHH:MM:SSZ
+
+# 記事のURL（カスタムURL用）
+slug: "custom-url"
+
+# 記事の並び順（昇順）
+sort: "title"  # title, date, weight等
+
+# 記事の表示設定
+showToc: true  # 目次表示
+showBreadcrumb: true  # パンくずリスト表示
+showReadingTime: true  # 読了時間表示
+
+# コメント設定
+comments: true  # コメント機能の有効/無効
+
+# 関連記事の表示
+related: true  # 関連記事の自動表示
+---
+```
+
+### 記事作成時のチェックリスト
+- [ ] タイトルは60文字以内で魅力的
+- [ ] カテゴリは適切に設定（tech/daily/news/blog）
+- [ ] タグは最低3つ、関連性の高いものを選択
+- [ ] 要約は200文字以内で記事の内容を簡潔に表現
+- [ ] サムネイル画像は適切なサイズ（推奨：1200x630px）
+- [ ] 説明文は160文字以内でSEOを意識
+- [ ] ドラフト設定を適切に管理
+- [ ] 日付は正しい形式で設定
+
+### 画像管理ルール
+- 画像は `static/images/` ディレクトリに配置
+- ファイル名は英数字とハイフンのみ使用
+- サムネイル画像：1200x630px（16:10比率）
+- OGP画像：1200x630px（16:10比率）
+- 記事内画像：最大幅800px、WebP形式推奨
+
+### カテゴリ別記事の特徴
+- **tech**: 技術記事、コード例、実装方法
+- **daily**: 日常の記録、体験談、雑記
+- **news**: ニュース、情報発信、速報
+- **blog**: 一般的なブログ記事、エッセイ
 
 ## デバッグ
 - Hugoのログレベルを上げる: `hugo server --logLevel debug`
