@@ -1,455 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Hugo Theme Stack Starter</title>
-        <link>http://localhost:1313/</link>
-        <description>Recent content on Hugo Theme Stack Starter</description>
+        <title>34feed</title>
+        <link>https://344blog.4thavenue.info/</link>
+        <description>Recent content on 34feed</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>ja</language>
         <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
         <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Tue, 23 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>http://localhost:1313/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sat, 27 Sep 2025 14:15:41 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>10秒決断術で人生が変わるかもしれない話</title>
+        <link>https://344blog.4thavenue.info/p/first-post/</link>
+        <pubDate>Sat, 27 Sep 2025 14:15:41 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+        <guid>https://344blog.4thavenue.info/p/first-post/</guid>
+        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post 10秒決断術で人生が変わるかもしれない話" /&gt;&lt;p&gt;私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか&amp;hellip;。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。&lt;/p&gt;
+&lt;p&gt;気づけば、本当に考えるべき重要な課題に頭が回らなくなっていた。これじゃダメだと思って、何か良い方法はないかと探していたときに出会ったのが「10秒で判断する」という考え方だった。&lt;/p&gt;
+&lt;h2 id=&#34;10秒考えてダメなら潔く諦める&#34;&gt;10秒考えてダメなら、潔く諦める
+&lt;/h2&gt;&lt;p&gt;ルールは至ってシンプル。&lt;strong&gt;物事を10秒で考える。10秒考えて答えが出ないならあきらめる。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最初は「たった10秒で？」と思ったけれど、実際にやってみると意外に多くのことが10秒で判断できることがわかった。10秒で問題の完璧な答えを出さなくても、少なくともアプローチ方法がわかるなら、そこから答えを導き出すことはできる。&lt;/p&gt;
+&lt;p&gt;逆に、アプローチ方法すらわからず「さっぱりわからん」状態なら、それは自分の知識や経験では解決の糸口すら見つけられない証拠。そんなときは潔く諦めて、他の人に相談したり、別の方法を探したりしたほうが早い。&lt;/p&gt;
+&lt;p&gt;実は、この考え方はユニクロの創業者である柳井正さんも実践されているようで、&amp;ldquo;10秒考えてわからないものは、それ以上考えても無駄だ&amp;quot;という名言を残されている。世界的な経営者も同じような発想で動いているのだと知って、自分のやり方に確信が持てた。&lt;/p&gt;
+&lt;h2 id=&#34;これは一種の決断力&#34;&gt;これは一種の決断力
+&lt;/h2&gt;&lt;p&gt;この10秒ルールは、一種の決断力といえる。決断の速さは問題解決までの時間を大幅に短縮するため、行動が早いといわれる人は、きっと問題に対する見切りが良いのだろう。&lt;/p&gt;
+&lt;p&gt;マッキンゼー出身の赤羽雄二さんが提唱している&amp;quot;ゼロ秒思考&amp;quot;も、似たような発想だ。思考のスピードが上がることで、すばやい決断を可能にし、実行力を身につけられるという。&lt;/p&gt;
+&lt;p&gt;悩んでも答えは出てこないだけだから、脳に他の刺激を与える必要がある。だから一旦、その問題は後回しにして、別のわかることから10秒で考えていく。わからない問題に固執するより、解決できる問題から片付けていったほうが、結果的に全体の進捗が良くなる。&lt;/p&gt;
+&lt;h2 id=&#34;実際の効果タスクが驚くほど片付く&#34;&gt;実際の効果：タスクが驚くほど片付く
+&lt;/h2&gt;&lt;p&gt;こうすることで、本当に効率よくタスクを完遂していくことが可能になった。以前なら一つの判断に30分も1時間もかけていたことが、今では数秒から数分で済んでしまう。&lt;/p&gt;
+&lt;p&gt;浮いた時間で、本当に重要な問題にじっくり向き合えるようになったし、日々のストレスも大幅に減った。「考えすぎて何も進まない」という状況から脱却できたのは大きい。&lt;/p&gt;
+&lt;p&gt;ただし、これは与えられている仕事をこなすだけの人にとっては、あまり必要のない技術かもしれない。言われたことを言われた通りにやるだけなら、そもそも判断する機会も少ないからだ。&lt;/p&gt;
+&lt;h2 id=&#34;経営層には必須のスキル&#34;&gt;経営層には必須のスキル
+&lt;/h2&gt;&lt;p&gt;しかし、次々と問題解決を迫られる経営層になると、この決断力は間違いなく必須のスキルになってくる。限られた時間の中で、数多くの判断を下していかなければならないからだ。&lt;/p&gt;
+&lt;p&gt;もちろん日常生活でも不可欠だが、ことビジネスにおける決定力は、家事の「するorしない」を決定するのとはまた質が違う。自分で決断する締切のない事柄を処理するのと、相手から締切を与えられて急かされるのでは、求められる決断のスピードも精度も本質的に違ってくる。&lt;/p&gt;
+&lt;p&gt;そういう意味で、この10秒決断術は、将来的にリーダーシップを発揮したい人、責任ある立場を目指したい人にとって、今のうちから鍛えておくべき「筋肉」のようなものだと思う。&lt;/p&gt;
+&lt;h2 id=&#34;結論迷ったら10秒ダメなら次へ&#34;&gt;結論：迷ったら10秒、ダメなら次へ
+&lt;/h2&gt;&lt;p&gt;私の結論は単純だ。&lt;strong&gt;迷ったらまず10秒考える。アプローチが見えなければ潔く諦めて次に進む。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;これを続けていくうちに、自然と直感力も鍛えられるし、本当に重要な問題とそうでない問題の区別もつくようになってきた。完璧を求めすぎて動けなくなるより、とりあえず動いて修正していく方が、結果的により良い結果を生み出せる。&lt;/p&gt;
+&lt;p&gt;柳井正さんの&amp;quot;即断・即決・即実行せよ&amp;quot;という言葉も、同じことを言っているのだろう。&lt;/p&gt;
+&lt;p&gt;今日から「10秒ルール」、試してみてはどうだろうか。きっと人生の効率が格段に上がるはずだ。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>軽量な画像最適化パイプラインをHugoで作る</title>
-        <link>http://localhost:1313/tech/sample-tech/</link>
-        <pubDate>Tue, 23 Sep 2025 10:00:00 +0000</pubDate>
+        <title>About</title>
+        <link>https://344blog.4thavenue.info/about/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/tech/sample-tech/</guid>
-        <description>&lt;p&gt;Hugo Extendedには画像処理機能が備わっており、外部の最適化ツールに頼らずにサイズ削減やフォーマット変換を行えます。たとえば、&lt;code&gt;resources.Get&lt;/code&gt;で画像を読み込み、&lt;code&gt;Fit&lt;/code&gt;や&lt;code&gt;Resize&lt;/code&gt;で派生画像を生成し、&lt;code&gt;fingerprint&lt;/code&gt;でキャッシュバスティングされたURLを得る、という流れが最小構成です。加えて&lt;code&gt;imaging&lt;/code&gt;の品質指定を活用し、サムネイルはWebP、高解像はAVIFなど用途ごとに出し分けます。テンプレート側では&lt;code&gt;srcset&lt;/code&gt;と&lt;code&gt;sizes&lt;/code&gt;を丁寧に定義し、CLSを避けるためにwidth/height属性を必ず付与します。記事内画像は&lt;code&gt;figure&lt;/code&gt;のラッパーを用意してキャプションと一緒に扱うと再利用性が上がります。最終的に、不要な巨大画像の取り込みを避け、LCP要素の画像のみ先にプリロードすることで、初期描画を大きく改善できます。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>朝のルーティンを10分だけ整える実験</title>
-        <link>http://localhost:1313/blog/sample-daily/</link>
-        <pubDate>Tue, 23 Sep 2025 07:30:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/blog/sample-daily/</guid>
-        <description>&lt;p&gt;ここ数週間、出社前（在宅日の場合は業務開始前）の10分を固定化する実験をしている。内容はシンプルで、1）窓辺での深呼吸と一杯の水、2）3分の散歩またはストレッチ、3）今日やらないことを含めた箇条書きメモ。ポイントは「完璧を狙わない」ことと、「終了条件を明確にする」こと。10分を超えそうなら切り上げるし、天気が悪ければ屋内の軽い運動に置き換える。結果として、午前の集中開始がスムーズになり、メールや通知に引きずられにくくなった。実験は継続中だが、続けるコツは前夜の準備と、達成ハードルを下げることだと感じている。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hugo 0.150 リリース：拡張版の画像処理が高速化</title>
-        <link>http://localhost:1313/news/sample-news/</link>
-        <pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/news/sample-news/</guid>
-        <description>&lt;p&gt;Hugo 0.150 が公開された。注目はExtended版での画像処理パイプラインの最適化だ。WebP/AVIFの生成時に内部バッファの扱いが改善され、大規模サイトでのビルド時間が短縮されたとの報告が上がっている。合わせて、テンプレート関連では一部の無効な&lt;code&gt;relURL&lt;/code&gt;利用時の警告が整理され、&lt;code&gt;where&lt;/code&gt;フィルターの挙動がドキュメントに沿う形で安定した。モジュール周りではバージョン解決のログがわかりやすくなり、CIでのトラブルシュートが容易になった。既存サイトの互換性は概ね良好だが、SCSSのコンパイラ設定をカスタムしている場合は注意が必要。アップデート前に&lt;code&gt;hugo version&lt;/code&gt;で拡張版が有効か確認し、&lt;code&gt;hugo mod tidy&lt;/code&gt;で依存を整理してから移行すると安全だ。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2 id=&#34;headings&#34;&gt;Headings
-&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1 id=&#34;h1&#34;&gt;H1
-&lt;/h1&gt;&lt;h2 id=&#34;h2&#34;&gt;H2
-&lt;/h2&gt;&lt;h3 id=&#34;h3&#34;&gt;H3
-&lt;/h3&gt;&lt;h4 id=&#34;h4&#34;&gt;H4
-&lt;/h4&gt;&lt;h5 id=&#34;h5&#34;&gt;H5
-&lt;/h5&gt;&lt;h6 id=&#34;h6&#34;&gt;H6
-&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph
-&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
-&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
-&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes
-&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
-&lt;h3 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;tables&#34;&gt;Tables
-&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Age&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Bob&lt;/td&gt;
-          &lt;td&gt;27&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Alice&lt;/td&gt;
-          &lt;td&gt;23&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables
-&lt;/h3&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Italics&lt;/th&gt;
-          &lt;th&gt;Bold&lt;/th&gt;
-          &lt;th&gt;Code&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;A&lt;/th&gt;
-          &lt;th&gt;B&lt;/th&gt;
-          &lt;th&gt;C&lt;/th&gt;
-          &lt;th&gt;D&lt;/th&gt;
-          &lt;th&gt;E&lt;/th&gt;
-          &lt;th&gt;F&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td&gt;
-          &lt;td&gt;Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td&gt;
-          &lt;td&gt;Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td&gt;
-          &lt;td&gt;Proin sit amet velit nec enim imperdiet vehicula.&lt;/td&gt;
-          &lt;td&gt;Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td&gt;
-          &lt;td&gt;Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks
-&lt;/h2&gt;&lt;h3 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces
-&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;diff-code-block&#34;&gt;Diff code block
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;one-line-code-block&#34;&gt;One line code block
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;A paragraph&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
-&lt;/h2&gt;&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;li&gt;And another item&lt;/li&gt;
+        <guid>https://344blog.4thavenue.info/about/</guid>
+        <description>&lt;h2 id=&#34;サイトについて&#34;&gt;サイトについて
+&lt;/h2&gt;&lt;p&gt;「34feed」は、個人的なジャーナルを中心に、日常で気になったことや学びを記録している雑記サイトです。カテゴリは &lt;strong&gt;Jurnal&lt;/strong&gt;、&lt;strong&gt;Tips&lt;/strong&gt;、&lt;strong&gt;Loccal&lt;/strong&gt; を軸に構成しており、読み物としても備忘録としても楽しめる内容を目指しています。&lt;/p&gt;
+&lt;h2 id=&#34;運営者について&#34;&gt;運営者について
+&lt;/h2&gt;&lt;p&gt;運営者は &lt;strong&gt;さしし&lt;/strong&gt; といいます。PC関連や生成AI、プログラミングでつまづいたことを解決した際の記録をメモとして残しています。こうした情報が、同じように悩んでいる方の助けになれば嬉しく思います。&lt;/p&gt;
+&lt;h2 id=&#34;発信のスタンス&#34;&gt;発信のスタンス
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;日常的な気づきを「ジャーナル」として記録&lt;/li&gt;
+&lt;li&gt;役立ちそうな知見は「Tips」として整理&lt;/li&gt;
+&lt;li&gt;ローカルな話題や地域情報は「Loccal」として共有&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;nested-list&#34;&gt;Nested list
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Fruit
+&lt;p&gt;肩肘張らずに、自分のペースで発信を続けています。&lt;/p&gt;
+&lt;h2 id=&#34;連絡先&#34;&gt;連絡先
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;メールアドレス: &lt;a class=&#34;link&#34; href=&#34;mailto:sasisi344@gmail.com&#34; &gt;sasisi344@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SNS: X（Twitter）、Threads、Instagram などへのリンクはトップページからどうぞ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今後も少しずつ記事を積み重ねていく予定ですので、気軽に覗いていただけると幸いです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>プライバシーポリシー</title>
+        <link>https://344blog.4thavenue.info/privacy-policy/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>https://344blog.4thavenue.info/privacy-policy/</guid>
+        <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに
+&lt;/h2&gt;&lt;p&gt;本プライバシーポリシーは、当サイト（以下「本サイト」といいます）が利用者の個人情報をどのように収集・利用・保護するかを明らかにするものです。日本国内の関連法令（個人情報保護法等）および欧州一般データ保護規則（GDPR）を遵守し、利用者のプライバシーを尊重します。&lt;/p&gt;
+&lt;h2 id=&#34;収集する情報&#34;&gt;収集する情報
+&lt;/h2&gt;&lt;p&gt;本サイトでは、以下の情報を収集する場合があります：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Orange&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
+&lt;li&gt;氏名、メールアドレス等の連絡先情報（お問い合わせフォームやコメント機能を利用する場合）&lt;/li&gt;
+&lt;li&gt;クッキー、アクセスログ、IPアドレス、ブラウザ情報などの技術情報&lt;/li&gt;
+&lt;li&gt;サービス向上のための統計情報（Google Analytics 等のアクセス解析ツールによる）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dairy
+&lt;h2 id=&#34;利用目的&#34;&gt;利用目的
+&lt;/h2&gt;&lt;p&gt;収集した個人情報は、以下の目的に利用します：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;li&gt;Cheese&lt;/li&gt;
+&lt;li&gt;お問い合わせ対応および必要な連絡&lt;/li&gt;
+&lt;li&gt;サービス改善、コンテンツ最適化&lt;/li&gt;
+&lt;li&gt;不正アクセスやスパム防止等のセキュリティ対策&lt;/li&gt;
+&lt;li&gt;法令の遵守に必要な場合&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;h2 id=&#34;個人情報の管理&#34;&gt;個人情報の管理
+&lt;/h2&gt;&lt;p&gt;本サイトは、利用者の個人情報を適切に管理し、第三者への提供は以下の場合を除き行いません：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;利用者の同意がある場合&lt;/li&gt;
+&lt;li&gt;法令に基づき開示が必要とされる場合&lt;/li&gt;
+&lt;li&gt;本サイトの運営上必要な業務委託先に提供する場合（委託先に対しては適切な監督を行います）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Image gallery</title>
-        <link>http://localhost:1313/p/image-gallery/</link>
-        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/image-gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;syntax&#34;&gt;Syntax
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Image 1&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;1.jpg&lt;/span&gt;) ![&lt;span class=&#34;nt&#34;&gt;Image 2&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;2.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/image-gallery/1.jpg&#34;
-	width=&#34;2000&#34;
-	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/1_hu_811b671457ffff1f.jpg 480w, http://localhost:1313/p/image-gallery/1_hu_c74af69dd7c1dcda.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;142&#34;
-		data-flex-basis=&#34;342px&#34;
-	
-&gt; &lt;img src=&#34;http://localhost:1313/p/image-gallery/2.jpg&#34;
-	width=&#34;1500&#34;
-	height=&#34;2250&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/2_hu_42f6436cb1637265.jpg 480w, http://localhost:1313/p/image-gallery/2_hu_27862a49608da0d9.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;66&#34;
-		data-flex-basis=&#34;160px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mymind&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;mymind&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@lukechesser&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Luke Chesser&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;クッキーcookie等の使用について&#34;&gt;クッキー（Cookie）等の使用について
+&lt;/h2&gt;&lt;p&gt;本サイトは、利便性向上やアクセス解析のためにクッキーを使用する場合があります。利用者はブラウザの設定によりクッキーを無効化できますが、一部機能が制限される可能性があります。&lt;/p&gt;
+&lt;h2 id=&#34;広告の配信について&#34;&gt;広告の配信について
+&lt;/h2&gt;&lt;p&gt;本サイトでは、以下の第三者配信サービスを利用しています：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google AdSense（グーグルアドセンス）&lt;/li&gt;
+&lt;li&gt;Amazonアソシエイト&lt;/li&gt;
+&lt;li&gt;もしもアフィリエイト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの広告配信事業者は、利用者の興味に応じた商品やサービスの広告を表示するため、クッキーを使用する場合があります。Google による広告に関しては、&lt;a class=&#34;link&#34; href=&#34;https://policies.google.com/technologies/ads?hl=ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google ポリシーと規約&lt;/a&gt; をご確認ください。&lt;/p&gt;
+&lt;p&gt;利用者は Google 広告のパーソナライズド広告を無効にすることができます（&lt;a class=&#34;link&#34; href=&#34;https://www.google.com/settings/ads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;広告設定&lt;/a&gt; からオプトアウト可能です）。&lt;/p&gt;
+&lt;p&gt;また、本サイトは Amazon.co.jp を宣伝しリンクすることによってサイトが紹介料を獲得できる、Amazonアソシエイト・プログラムの参加者です。もしもアフィリエイトについても、同様に提携先の広告主の商品・サービスを紹介するためにリンクを設置しています。&lt;/p&gt;
+&lt;h2 id=&#34;gdpr-に基づく権利&#34;&gt;GDPR に基づく権利
+&lt;/h2&gt;&lt;p&gt;EU域内に居住する利用者は、GDPRに基づき以下の権利を有します：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;個人データへのアクセス権&lt;/li&gt;
+&lt;li&gt;データの訂正・削除の要求権&lt;/li&gt;
+&lt;li&gt;データ処理の制限、異議申立て権&lt;/li&gt;
+&lt;li&gt;データポータビリティ権&lt;/li&gt;
+&lt;li&gt;同意撤回の権利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの権利を行使する場合は、下記お問い合わせ先までご連絡ください。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス解析ツールについて&#34;&gt;アクセス解析ツールについて
+&lt;/h2&gt;&lt;p&gt;本サイトでは Google Analytics 等の第三者サービスを利用することがあります。これらのツールはクッキーを用いてトラフィックデータを収集します。データは匿名で収集され、個人を特定するものではありません。利用者はブラウザ設定や Google のオプトアウト機能により収集を拒否できます。&lt;/p&gt;
+&lt;h2 id=&#34;免責事項&#34;&gt;免責事項
+&lt;/h2&gt;&lt;p&gt;本サイトに掲載する情報については正確性に努めますが、利用によって生じた損害等に関して一切の責任を負いません。また、本サイトからリンクする外部サイトにおける個人情報の取り扱いについても責任を負いません。&lt;/p&gt;
+&lt;h2 id=&#34;プライバシーポリシーの変更&#34;&gt;プライバシーポリシーの変更
+&lt;/h2&gt;&lt;p&gt;本ポリシーは、法令の変更や運営方針の見直しに応じて改訂される場合があります。重要な変更がある場合は、本サイト上にて通知します。&lt;/p&gt;
+&lt;h2 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先
+&lt;/h2&gt;&lt;p&gt;本サイトのプライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サイト運営者名：さしし（sasisi344）&lt;/li&gt;
+&lt;li&gt;メールアドレス：sasisi344@gmail.com&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        </item>
-        <item>
-        <title>Shortcodes</title>
-        <link>http://localhost:1313/p/shortcodes/</link>
-        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/shortcodes/</guid>
-        <description>&lt;img src="http://localhost:1313/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD&#34;
-            scrolling=&#34;no&#34;
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34;
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;tencent-video&#34;&gt;Tencent video
-&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0&#34; 
-            scrolling=&#34;no&#34; 
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34; 
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;youtube-video&#34;&gt;YouTube video
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/0qwALOOvUik&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;generic-video-file&#34;&gt;Generic video file
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;video
-    controls
-    src=&#34;https://www.w3schools.com/tags/movie.mp4&#34;
-    
-    
-    &gt;
-        &lt;p&gt;
-            Your browser doesn&#39;t support HTML5 video. Here is a
-            &lt;a href=&#34;https://www.w3schools.com/tags/movie.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
-        &lt;/p&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;gist&#34;&gt;Gist
-&lt;/h2&gt;&lt;script src=&#34;https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;gitlab&#34;&gt;GitLab
-&lt;/h2&gt;&lt;script
-    type=&#34;application/javascript&#34;
-    src=&#34;https://gitlab.com/-/snippets/2589724.js&#34;
-&gt;&lt;/script&gt;
-&lt;h2 id=&#34;quote&#34;&gt;Quote
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
-        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline math
-&lt;/h2&gt;&lt;p&gt;This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;block-math&#34;&gt;Block math
-&lt;/h2&gt;$$
-    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://344blog.4thavenue.info/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://344blog.4thavenue.info/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://344blog.4thavenue.info/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://344blog.4thavenue.info/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -481,10 +178,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://344blog.4thavenue.info/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://344blog.4thavenue.info/search/</guid>
         <description></description>
         </item>
         

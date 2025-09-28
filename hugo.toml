@@ -7,30 +7,44 @@ theme = 'hugo-theme-stack'
   author = "さしし@sasisi344"
   description = "自分のインプットをアウトプットする感じの雑記ブログです。"
   keywords = ["tech", "programming", "ai", "machine learning"]
-  mainSections = ["tech", "blog", "news"]
+  mainSections = ["Jurnal", "Blog", "Local"]
 
 [params.Author]
   name = "さしし@sasisi344"
   email = "sasisi344@gmail.com"
   
-[menu]
-  [[menu.main]]
-    name = "ホーム"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "記事"
-    url = "/archives/"
-    weight = 2
-  [[menu.main]]
-    name = "アーカイブ"
-    url = "/archives/"
-    weight = 3
-  [[menu.main]]
-    name = "タグ"
-    url = "/tags/"
-    weight = 4
-  [[menu.main]]
-    name = "検索"
-    url = "/search/"
-    weight = 5
+[[menu.social]]
+  identifier = "twitter"
+  name = "twitter"
+  url = "https://x.com/sasisi344"
+  weight = 10
+    [menu.social.params]
+    icon = "brand-twitter"
+    newTab = true
+
+ [[menu.social]]
+  identifier = "instagram"
+  name = "Instagram"
+  url = "https://www.instagram.com/sasisi344/"
+  weight = 15
+    [menu.social.params]
+    icon = "brand-instagram"   # ← assets/icons/brand-instagram.svg と一致
+    newTab = true
+
+ [[menu.social]]
+  identifier = "threads"
+  name = "Threads"
+  url = "https://www.threads.net/@sasisi344"
+  weight = 20
+    [menu.social.params]
+    icon = "brand-threads" 
+    newTab = true
+
+  [[menu.social]]
+  identifier = "rss"
+  name = "RSS"
+  url = "/index.xml"
+  weight = 30
+    [menu.social.params]
+    icon = "rss"
+
