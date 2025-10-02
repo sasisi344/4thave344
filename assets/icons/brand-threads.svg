@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Threads">
+  <title>Threads</title>
+  <!-- Outer spiral-like contour -->
+  <path d="M18 8.5c-1.1-2.3-3.4-4-6.2-4C7.1 4.5 4 7.4 4 12s3.1 7.5 7.8 7.5c4.6 0 7.7-3.5 7.7-8.5 0-1.1-.2-2.1-.5-3"/>
+  <!-- Inner 'a' form -->
+  <path d="M8 12.2c0-2.1 1.8-3.7 4-3.7s4 1.2 4 3.5v5"/>
+  <path d="M11 14h5"/>
+</svg>

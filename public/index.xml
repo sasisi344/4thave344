@@ -2,19 +2,159 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>34feed</title>
-        <link>http://localhost:1313/</link>
+        <link>https://344blog.4thavenue.info/</link>
         <description>Recent content on 34feed</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
         <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Sun, 28 Sep 2025 12:52:30 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 01 Oct 2025 23:54:32 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SNSでのURL共有：QRコードとテキストリンク、そしてAI時代の未来</title>
+        <link>https://344blog.4thavenue.info/p/snsqr-url/</link>
+        <pubDate>Wed, 01 Oct 2025 23:54:32 +0900</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>https://344blog.4thavenue.info/p/snsqr-url/</guid>
+        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post SNSでのURL共有：QRコードとテキストリンク、そしてAI時代の未来" /&gt;&lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ
+&lt;/h2&gt;&lt;p&gt;最近ふと思ったのだが、SNSでウェブサイトのURLを共有する時、テキストで貼るよりもQRコードを画像で投稿した方がいいんじゃないだろうか。見た目も良いし、なんとなく今っぽい気もする。&lt;/p&gt;
+&lt;p&gt;でも実際のところ、どちらが本当に便利なんだろう？&lt;/p&gt;
+&lt;h2 id=&#34;テキストurl-vs-qrコード&#34;&gt;テキストURL vs QRコード
+&lt;/h2&gt;&lt;h3 id=&#34;テキストurlの強み&#34;&gt;テキストURLの強み
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;クリック1回でアクセスできる（モバイルでもPCでも）&lt;/li&gt;
+&lt;li&gt;SNSが自動的にリンクプレビューを表示してくれる&lt;/li&gt;
+&lt;li&gt;コピペが簡単で、他の人がシェアしやすい&lt;/li&gt;
+&lt;li&gt;UTMパラメータなどでアクセス解析もしやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;qrコードの強み&#34;&gt;QRコードの強み
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ビジュアル的に目立つ&lt;/li&gt;
+&lt;li&gt;印刷物や動画など、画面を見ながらスマホでアクセスする場面で便利&lt;/li&gt;
+&lt;li&gt;デザインの一部として組み込める&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一見、QRコードの方がスマートに見えるが、実はテキストURLの方が圧倒的に便利だということに気づいた。&lt;/p&gt;
+&lt;h2 id=&#34;youtubeでqrコードを使う問題&#34;&gt;YouTubeでQRコードを使う問題
+&lt;/h2&gt;&lt;p&gt;例えばYouTubeの動画内でQRコードを表示するケースを考えてみる。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PCで視聴している人&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;QRコードをスマホで読み取れる → 便利&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;スマホで視聴している人&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;QRコードが読み取れない → 不便&lt;/li&gt;
+&lt;li&gt;スクショを撮って、別のアプリで読み取る必要がある&lt;/li&gt;
+&lt;li&gt;そこまでする人はほとんどいない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;YouTubeの視聴統計によると、実は70%以上がモバイルデバイスからの視聴だという。つまり、QRコードを使うと大多数のユーザーにとって使いにくくなってしまうのだ。&lt;/p&gt;
+&lt;h2 id=&#34;ユーザーの手間を最小化する&#34;&gt;ユーザーの手間を最小化する
+&lt;/h2&gt;&lt;p&gt;結局、最も重要なのは&lt;strong&gt;ユーザーの手間をいかに減らすか&lt;/strong&gt;だと思う。&lt;/p&gt;
+&lt;p&gt;アクセスまでのステップ数で比較すると：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;テキストURL（概要欄）&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;タップ → アクセス完了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;QRコード（スマホ視聴時）&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;スクショを撮る&lt;/li&gt;
+&lt;li&gt;QRリーダーアプリを起動&lt;/li&gt;
+&lt;li&gt;画像を選択&lt;/li&gt;
+&lt;li&gt;アクセス&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;QRコード（PC視聴時）&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;スマホを取り出す&lt;/li&gt;
+&lt;li&gt;カメラを起動&lt;/li&gt;
+&lt;li&gt;QRコードを読み取る&lt;/li&gt;
+&lt;li&gt;アクセス&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;この差は決定的だ。マーケティングの世界では「ワンクリックの壁」という言葉があるように、ステップが1つ増えるだけで離脱率は大幅に上がる。&lt;/p&gt;
+&lt;h3 id=&#34;結論&#34;&gt;結論
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;必須&lt;/strong&gt;：テキストURL（最も手間が少ない）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;補助&lt;/strong&gt;：QRコード（PC視聴者への配慮）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;選択肢を増やすのは良いことだが、それはあくまで最も簡単な方法を提供した上での話だ。&lt;/p&gt;
+&lt;h2 id=&#34;プラットフォーム側の解決策&#34;&gt;プラットフォーム側の解決策
+&lt;/h2&gt;&lt;p&gt;ここで一つアイデアが浮かんだ。&lt;/p&gt;
+&lt;p&gt;YouTubeなどの動画配信プラットフォームが、画面上に表示されたQRコードを自動認識して、タップでアクセスできる機能を実装したらどうだろう？実はInstagramでは似たような機能がすでにある。&lt;/p&gt;
+&lt;p&gt;Instagramのストーリーズやライブ配信では、画面上のURLやQRコードが自動認識され、タップするだけでアクセスできる。これはまさに理想的な実装だ。&lt;/p&gt;
+&lt;p&gt;YouTubeが実装していない理由は推測だが：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スパムや悪意あるリンクのリスク管理が難しい&lt;/li&gt;
+&lt;li&gt;プラットフォーム外への離脱を促進してしまう&lt;/li&gt;
+&lt;li&gt;概要欄という既存の仕組みで十分機能している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;技術的には十分可能だが、プラットフォーム側の方針次第ということだろう。&lt;/p&gt;
+&lt;h2 id=&#34;ai時代の新しいアプローチ&#34;&gt;AI時代の新しいアプローチ
+&lt;/h2&gt;&lt;p&gt;さらに考えを進めると、今後はプラットフォームが機能を追加するのではなく、&lt;strong&gt;OS上で稼働するAIが画面を認識してURL変換する&lt;/strong&gt;タイプになりそうだ。&lt;/p&gt;
+&lt;p&gt;これなら：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各ストリーミングサービスが機能を追加する必要がない&lt;/li&gt;
+&lt;li&gt;バグなどの機能面でのデメリットが減る&lt;/li&gt;
+&lt;li&gt;すべてのアプリで統一的に動作する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;すでに動き始めている技術&#34;&gt;すでに動き始めている技術
+&lt;/h3&gt;&lt;p&gt;実はこの未来、すでに動き始めている。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apple Intelligence（iOS 18〜）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面上のコンテンツをAIが理解&lt;/li&gt;
+&lt;li&gt;画像内のテキストを認識してアクション可能に&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Google Pixel の Gemini統合&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面上の情報をリアルタイムで解析&lt;/li&gt;
+&lt;li&gt;コンテキストに応じた操作を提案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Windows Copilot Vision&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面全体を「見る」AI&lt;/li&gt;
+&lt;li&gt;あらゆるアプリの内容を理解して支援&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらは「OS上で稼働するAI」で、アプリ側の実装を待たずに機能を提供できる。&lt;/p&gt;
+&lt;h2 id=&#34;新しいセキュリティリスク&#34;&gt;新しいセキュリティリスク
+&lt;/h2&gt;&lt;p&gt;ただし、この便利な未来には大きな懸念もある。&lt;/p&gt;
+&lt;p&gt;OS全体をコントロールするAIが登場すると、誤作動を引き起こすハッキングや悪意のあるアプリケーションが増える可能性がある。&lt;/p&gt;
+&lt;h3 id=&#34;予想されるリスク&#34;&gt;予想されるリスク
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Prompt Injection攻撃&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面上に見えない指示を埋め込んで、AIに悪意ある操作をさせる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;フィッシング詐欺の高度化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;正規URLに見せかけた偽URLをAIに認識させる&lt;/li&gt;
+&lt;li&gt;AIが「安全です」と誤判断してしまう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;プライバシー侵害&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OS-AIが画面のすべてを「見る」ため、センシティブな情報も収集される&lt;/li&gt;
+&lt;li&gt;データが漏洩したら？誰がアクセスできる？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;現在の対策&#34;&gt;現在の対策
+&lt;/h3&gt;&lt;p&gt;業界では以下のような対策が議論されている：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sandboxing&lt;/strong&gt;: AIの権限を制限する&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ユーザー承認フロー&lt;/strong&gt;: 重要なアクションには必ず確認を求める&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;透明性の確保&lt;/strong&gt;: AIが何を見て何を判断したか記録する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、セキュリティを強化しすぎると「タップ1回」という手軽さが失われてしまう。便利さとセキュリティのバランスは難しい課題だ。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「SNSでQRコードを使うべきか」という単純な疑問から始まったが、考えを深めていくと：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;現時点では&lt;strong&gt;テキストURLが最も便利&lt;/strong&gt;（ユーザーの手間が最小）&lt;/li&gt;
+&lt;li&gt;QRコードは補助的な位置づけ&lt;/li&gt;
+&lt;li&gt;将来的には&lt;strong&gt;OS-AIが画面を理解&lt;/strong&gt;してURL変換する時代が来る&lt;/li&gt;
+&lt;li&gt;その便利な未来には&lt;strong&gt;新しいセキュリティリスク&lt;/strong&gt;が伴う&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;技術や手法はあくまで手段であって、最も大切なのは&lt;strong&gt;ユーザー体験を第一に考えること&lt;/strong&gt;。そして、新しい技術を導入する際には、その便利さと引き換えに何を失うのかを常に考える必要がある。&lt;/p&gt;
+&lt;p&gt;AI時代のURL共有は、便利さとセキュリティのバランスをどう取るかが、今後数年間の大きな課題になるだろう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>祭りと「時代錯誤」──喧嘩と文化継承のはざまで</title>
-        <link>http://localhost:1313/p/jidai-sakugo-saiji/</link>
+        <link>https://344blog.4thavenue.info/p/jidai-sakugo-saiji/</link>
         <pubDate>Sun, 28 Sep 2025 12:52:30 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/jidai-sakugo-saiji/</guid>
-        <description>&lt;img src="http://localhost:1313/img/cover-news.png" alt="Featured image of post 祭りと「時代錯誤」──喧嘩と文化継承のはざまで" /&gt;&lt;h2 id=&#34;時代錯誤という批判について&#34;&gt;「時代錯誤」という批判について
+        <guid>https://344blog.4thavenue.info/p/jidai-sakugo-saiji/</guid>
+        <description>&lt;img src="https://344blog.4thavenue.info/img/cover-news.png" alt="Featured image of post 祭りと「時代錯誤」──喧嘩と文化継承のはざまで" /&gt;&lt;h2 id=&#34;時代錯誤という批判について&#34;&gt;「時代錯誤」という批判について
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yomiuri.co.jp/national/20250928-OYT1T50033/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.yomiuri.co.jp/national/20250928-OYT1T50033/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;祭りの延長で喧嘩頻発しすぎて警察出動が多い件で、この記事に対するコメントで気になったのは「時代錯誤」の文言。&lt;/p&gt;
@@ -36,11 +176,11 @@
         </item>
         <item>
         <title>10秒決断術で人生が変わるかもしれない話</title>
-        <link>http://localhost:1313/p/10sec-decision/</link>
+        <link>https://344blog.4thavenue.info/p/10sec-decision/</link>
         <pubDate>Sat, 27 Sep 2025 14:15:41 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/p/10sec-decision/</guid>
-        <description>&lt;img src="http://localhost:1313/img/default-cover.png" alt="Featured image of post 10秒決断術で人生が変わるかもしれない話" /&gt;&lt;p&gt;私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか&amp;hellip;。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。&lt;/p&gt;
+        <guid>https://344blog.4thavenue.info/p/10sec-decision/</guid>
+        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post 10秒決断術で人生が変わるかもしれない話" /&gt;&lt;p&gt;私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか&amp;hellip;。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。&lt;/p&gt;
 &lt;p&gt;気づけば、本当に考えるべき重要な課題に頭が回らなくなっていた。これじゃダメだと思って、何か良い方法はないかと探していたときに出会ったのが「10秒で判断する」という考え方だった。&lt;/p&gt;
 &lt;h2 id=&#34;10秒考えてダメなら潔く諦める&#34;&gt;10秒考えてダメなら、潔く諦める
 &lt;/h2&gt;&lt;p&gt;ルールは至ってシンプル。&lt;strong&gt;物事を10秒で考える。10秒考えて答えが出ないならあきらめる。&lt;/strong&gt;&lt;/p&gt;
@@ -68,10 +208,10 @@
         </item>
         <item>
         <title>About</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://344blog.4thavenue.info/about/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://344blog.4thavenue.info/about/</guid>
         <description>&lt;h2 id=&#34;サイトについて&#34;&gt;サイトについて
 &lt;/h2&gt;&lt;p&gt;「34feed」は、個人的なジャーナルを中心に、日常で気になったことや学びを記録している雑記サイトです。カテゴリは &lt;strong&gt;Jurnal&lt;/strong&gt;、&lt;strong&gt;Tips&lt;/strong&gt;、&lt;strong&gt;Loccal&lt;/strong&gt; を軸に構成しており、読み物としても備忘録としても楽しめる内容を目指しています。&lt;/p&gt;
 &lt;h2 id=&#34;運営者について&#34;&gt;運営者について
@@ -93,10 +233,10 @@
         </item>
         <item>
         <title>プライバシーポリシー</title>
-        <link>http://localhost:1313/privacy-policy/</link>
+        <link>https://344blog.4thavenue.info/privacy-policy/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/privacy-policy/</guid>
+        <guid>https://344blog.4thavenue.info/privacy-policy/</guid>
         <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに
 &lt;/h2&gt;&lt;p&gt;本プライバシーポリシーは、当サイト（以下「本サイト」といいます）が利用者の個人情報をどのように収集・利用・保護するかを明らかにするものです。日本国内の関連法令（個人情報保護法等）および欧州一般データ保護規則（GDPR）を遵守し、利用者のプライバシーを尊重します。&lt;/p&gt;
 &lt;h2 id=&#34;収集する情報&#34;&gt;収集する情報
@@ -161,18 +301,18 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://344blog.4thavenue.info/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://344blog.4thavenue.info/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://344blog.4thavenue.info/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://344blog.4thavenue.info/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -204,10 +344,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://344blog.4thavenue.info/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://344blog.4thavenue.info/search/</guid>
         <description></description>
         </item>
         

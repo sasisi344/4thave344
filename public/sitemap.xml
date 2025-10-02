@@ -2,47 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://344blog.4thavenue.info/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/categories/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/genai/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/categories/jurnal/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/post/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/qr%E3%82%B3%E3%83%BC%E3%83%89/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/p/snsqr-url/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3/</loc>
+    <lastmod>2025-10-01T23:54:32+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/categories/news/</loc>
     <lastmod>2025-09-28T12:52:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://344blog.4thavenue.info/tags/%E5%96%A7%E5%98%A9%E4%B8%A1%E6%88%90%E6%95%97/</loc>
     <lastmod>2025-09-28T12:52:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/10sec-decision/</loc>
+    <loc>https://344blog.4thavenue.info/p/jidai-sakugo-saiji/</loc>
+    <lastmod>2025-09-28T12:52:30+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/%E6%99%82%E4%BB%A3%E9%8C%AF%E8%AA%A4/</loc>
+    <lastmod>2025-09-28T12:52:30+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/tags/%E5%A4%9A%E6%A7%98%E6%80%A7/</loc>
+    <lastmod>2025-09-28T12:52:30+09:00</lastmod>
+  </url><url>
+    <loc>https://344blog.4thavenue.info/p/10sec-decision/</loc>
     <lastmod>2025-09-27T14:15:41+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://344blog.4thavenue.info/tags/%E3%81%84%E3%81%84%E8%A9%B1/</loc>
     <lastmod>2025-09-27T14:15:41+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/jurnal/</loc>
+    <loc>https://344blog.4thavenue.info/tags/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B9%E3%82%AD%E3%83%AB/</loc>
     <lastmod>2025-09-27T14:15:41+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://344blog.4thavenue.info/tags/%E8%87%AA%E5%B7%B1%E5%95%93%E7%99%BA/</loc>
     <lastmod>2025-09-27T14:15:41+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%81%84%E3%81%84%E8%A9%B1/</loc>
-    <lastmod>2025-09-27T14:15:41+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B9%E3%82%AD%E3%83%AB/</loc>
-    <lastmod>2025-09-27T14:15:41+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%87%AA%E5%B7%B1%E5%95%93%E7%99%BA/</loc>
-    <lastmod>2025-09-27T14:15:41+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://344blog.4thavenue.info/about/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/privacy-policy/</loc>
+    <loc>https://344blog.4thavenue.info/privacy-policy/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://344blog.4thavenue.info/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://344blog.4thavenue.info/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://344blog.4thavenue.info/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://344blog.4thavenue.info/search/</loc>
   </url>
 </urlset>
