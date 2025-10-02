@@ -33,16 +33,22 @@
 ## 開発ルール
 
 ### 1. コンテンツ作成
-- 新しい記事は `content/` ディレクトリにMarkdownファイルとして作成
+- 新しい記事は `content/post` ディレクトリにMarkdownファイルとして作成
 - フロントマターに以下を含める：
   ```yaml
-  ---
-  title: "記事タイトル"
-  date: YYYY-MM-DDTHH:MM:SSZ
-  draft: false
-  tags: ["タグ1", "タグ2"]
-  author: "さしし"
-  ---
+---
+title: "記事タイトル（60文字以内推奨）"
+date: YYYY-MM-DDTHH:MM:SSZ
+draft: false  # 公開時はfalse、下書き時はtrue
+categories:
+  - カテゴリ  # 必須：Jurnal/News/Local/Tipsのいずれか
+tags:
+  - タグ1-3  # 必須：最低3つ、関連性の高いタグ
+author: "さしし"  # 必須
+description: "記事の説明文（200文字以内、SEO用）"  # 必須
+summary: "記事の要約（200文字以内、一覧表示用）"  # 必須
+thumbnail: "images/default-cover.jpg"  # カテゴリJurnalはdefault-cover、Newsはcover-news.png、Localはcover-local.pngを使用
+---
   ```
 
 ### 2. レイアウト編集
@@ -113,14 +119,14 @@ hugo new posts/記事名.md
 title: "記事タイトル（60文字以内推奨）"
 date: YYYY-MM-DDTHH:MM:SSZ
 draft: false  # 公開時はfalse、下書き時はtrue
-categories: ["カテゴリ名"]  # 必須：tech/daily/news/blogのいずれか
-tags: ["タグ1", "タグ2", "タグ3"]  # 必須：最低3つ、関連性の高いタグ
+categories:
+  - カテゴリ  # 必須：Jurnal/News/Local/Tipsのいずれか
+tags:
+  - タグ1-3  # 必須：最低3つ、関連性の高いタグ
 author: "さしし"  # 必須
-description: "記事の説明文（160文字以内、SEO用）"  # 必須
+description: "記事の説明文（200文字以内、SEO用）"  # 必須
 summary: "記事の要約（200文字以内、一覧表示用）"  # 必須
-thumbnail: "images/thumbnail.jpg"  # 必須：static/images/配下の相対パス
-images: ["images/og-image.jpg"]  # 推奨：OGP用画像
----
+thumbnail: "images/default-cover.jpg"  # 必須：static/images/配下の相対パス---
 ```
 
 ### フロントマター推奨項目
@@ -159,7 +165,7 @@ related: true  # 関連記事の自動表示
 
 ### 記事作成時のチェックリスト
 - [ ] タイトルは60文字以内で魅力的
-- [ ] カテゴリは適切に設定（tech/daily/news/blog）
+- [ ] カテゴリは適切に設定（Jurnal/News/Local/Tips）
 - [ ] タグは最低3つ、関連性の高いものを選択
 - [ ] 要約は200文字以内で記事の内容を簡潔に表現
 - [ ] サムネイル画像は適切なサイズ（推奨：1200x630px）
@@ -175,10 +181,10 @@ related: true  # 関連記事の自動表示
 - 記事内画像：最大幅800px、WebP形式推奨
 
 ### カテゴリ別記事の特徴
-- **tech**: 技術記事、コード例、実装方法
-- **daily**: 日常の記録、体験談、雑記
-- **news**: ニュース、情報発信、速報
-- **blog**: 一般的なブログ記事、エッセイ
+- **Jurnal**: 日常の雑記、体験、日常のこと
+- **News**: ニュース記事のリアクション、新規情報など
+- **Local**: 地域ニュースだったり静岡県内のこと
+- **Tips**: アプリやGenAIを使ったうえでの体験をメモする
 
 ## デバッグ
 - Hugoのログレベルを上げる: `hugo server --logLevel debug`

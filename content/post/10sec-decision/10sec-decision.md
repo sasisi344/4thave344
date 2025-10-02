@@ -1,15 +1,15 @@
 ---
 title: "10秒決断術で人生が変わるかもしれない話"
 date: 2025-09-27T14:15:41+09:00
-slug: first-post
-image: "img/default-cover.png"
+slug: 10sec-decision
+image: img/default-cover.png
 draft: false
 categories: Jurnal
 tags:
     - 自己啓発
     - いい話
     - ビジネススキル
-summary: "何らかの決断をする時は10秒以内で終えたほうがいろいろ効率がいいて話。"
+summary: 何らかの決断をする時は10秒以内で終えたほうがいろいろ効率がいいて話。
 ---
 
 私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか...。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。
