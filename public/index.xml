@@ -8,7 +8,62 @@
         <language>ja</language>
         <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
         <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Wed, 08 Oct 2025 07:35:18 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Oct 2025 19:10:23 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AgentKitという名の未来ツール｜AIが自動化する世界の入口で</title>
+        <link>https://344blog.4thavenue.info/p/agentkit-openai-pre/</link>
+        <pubDate>Thu, 09 Oct 2025 19:10:23 +0900</pubDate>
+        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
+        <guid>https://344blog.4thavenue.info/p/agentkit-openai-pre/</guid>
+        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post AgentKitという名の未来ツール｜AIが自動化する世界の入口で" /&gt;&lt;p&gt;AIが勝手に動く時代が、いよいよ現実味を帯びてきた。&lt;br&gt;
+OpenAIが公開した「&lt;strong&gt;AgentKit&lt;/strong&gt;」は、その未来への扉を静かに開くツールだ。&lt;/p&gt;
+&lt;p&gt;これをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。&lt;br&gt;
+だがその真価は、AIが何を“できるか”よりも、「&lt;strong&gt;人がAIに何を任せるか&lt;/strong&gt;」という設計思想にある。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://openai.com/index/introducing-agentkit/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://openai.com/index/introducing-agentkit/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agentkitとはなにか&#34;&gt;AgentKitとはなにか
+&lt;/h2&gt;&lt;p&gt;AgentKitは、AIに“仕事の流れ”を与えるための設計ツール群だ。&lt;br&gt;
+ノードを線でつなぐチャート形式で、たとえば「朝になったらメールを整理 → カレンダーを確認 → 優先タスクをまとめる」といった一連の動作をAIに覚えさせることができる。&lt;/p&gt;
+&lt;p&gt;構成要素はざっくり以下の通り。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent Builder&lt;/strong&gt;：AIの動作フローを可視化して設計&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connector Registry&lt;/strong&gt;：外部サービスとの接続管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ChatKit&lt;/strong&gt;：チャットUIとしてAIを組み込む&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evals / RFT&lt;/strong&gt;：AIの性能評価と再学習&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guardrails&lt;/strong&gt;：暴走防止の安全柵&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり、AIに「タスクの流れ」「判断の条件」「連携先ツール」を全部まとめて教え込むための“総合環境”といえる。&lt;/p&gt;
+&lt;h2 id=&#34;できることできないこと&#34;&gt;できること、できないこと
+&lt;/h2&gt;&lt;p&gt;AgentKitが得意なのは、&lt;strong&gt;人が考えずに済む単純処理の整理と自動化&lt;/strong&gt;だ。&lt;br&gt;
+たとえば、朝のメール分類やチームの進捗サマリー、会議前の情報収集。&lt;br&gt;
+「AIが先に下ごしらえをしておいて、人が最後に判断する」ような用途がもっとも向いている。&lt;/p&gt;
+&lt;p&gt;ただし万能ではない。&lt;br&gt;
+創造・交渉・責任の伴う判断など、“人間の社会的文脈”を前提にした作業はまだAIの領域外だ。&lt;br&gt;
+会議で意見を出す、交渉で譲歩を決める、曖昧なニュアンスを読み取る――こうしたことは、AIがフローチャートをなぞるだけでは到達できない。&lt;/p&gt;
+&lt;h2 id=&#34;外部ツール接続とセキュリティの境界線&#34;&gt;外部ツール接続とセキュリティの境界線
+&lt;/h2&gt;&lt;p&gt;AgentKitの魅力のひとつは、外部サービス（メール、カレンダー、GitHubなど）をコネクトして、現実世界とつなげられる点だ。&lt;br&gt;
+だが、同時にそこが&lt;strong&gt;最大のリスク領域&lt;/strong&gt;でもある。&lt;/p&gt;
+&lt;p&gt;MCP（Model Context Protocol）という仕組みを通じて、AIが外部ツールを直接操作できるようになると、便利さと引き換えにセキュリティの難易度が跳ね上がる。&lt;br&gt;
+万が一、悪意あるサーバや改ざんされたツールに接続してしまえば、AIは“自動的に間違いを実行する存在”になりかねない。&lt;/p&gt;
+&lt;p&gt;現状の法制度でも、こうしたAIの誤動作に対する責任範囲は曖昧だ。&lt;br&gt;
+データの保護、契約上の責任、APIの使用許諾など――技術よりも**「どう守るか」**が議論の中心になる時代が来ている。&lt;/p&gt;
+&lt;p&gt;AIを動かすことより、&lt;strong&gt;安全に動かす仕組みをどう設計するか&lt;/strong&gt;が、今後の分水嶺になるだろう。&lt;/p&gt;
+&lt;h2 id=&#34;ツールは人次第aiもまた然り&#34;&gt;ツールは人次第、AIもまた然り
+&lt;/h2&gt;&lt;p&gt;結局のところ、AgentKitも他のAIツールも「使う人次第」だ。&lt;br&gt;
+AIは命令された通りに働くが、命令の“設計”まではしてくれない。&lt;br&gt;
+つまり「AIに何を任せるか」を決めるのは、いつだって人間側の責任だ。&lt;/p&gt;
+&lt;p&gt;このツールが生み出すのは「完全自動化」ではなく、「&lt;strong&gt;人間が考える余白を増やすための補助輪&lt;/strong&gt;」だと捉えると、ちょうどいい距離感になる。&lt;/p&gt;
+&lt;h2 id=&#34;これからの未来へ&#34;&gt;これからの未来へ
+&lt;/h2&gt;&lt;p&gt;今後、AgentKitのような仕組みが一般化すれば、AIはより「環境の一部」として動くようになる。&lt;br&gt;
+スケジュール管理、仕事の下準備、チームの進捗整理――こうした作業をAIが裏で支え、人間はより創造的な部分に集中できるようになる。&lt;/p&gt;
+&lt;p&gt;ただし、その未来が明るいかどうかは、安全設計の上に成り立つ。&lt;br&gt;
+外部ツールとの連携を広げるほど、AIは強くなるが、同時に脆くもなる。&lt;br&gt;
+だからこそ、未来を設計するエンジニアやユーザーは、&lt;strong&gt;「便利さ」と「信頼性」を同じテーブルで語れること&lt;/strong&gt;が求められていく。&lt;/p&gt;
+&lt;p&gt;AIが動く世界では、「任せる力」と「制御する知恵」の両方が、私たちの新しいスキルになる。&lt;/p&gt;
+&lt;p&gt;このAgentKitというツールは、ただの“AIの箱”ではない。&lt;br&gt;
+それは、人がAIに「何を任せ、何を自分でやるか」を問うための鏡でもあるのだ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>“今夜に効く”はウソ？牡蠣と亜鉛のほんとうの働き方</title>
         <link>https://344blog.4thavenue.info/p/oyster-night-eat/</link>
         <pubDate>Wed, 08 Oct 2025 07:35:18 +0900</pubDate>
@@ -157,7 +212,7 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         <pubDate>Sun, 05 Oct 2025 19:07:59 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
         <guid>https://344blog.4thavenue.info/p/podcast-monetization-japan/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/pd-monetize-cover.png" alt="Featured image of post Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く " /&gt;&lt;h2 id=&#34;はじめにpodcastは稼げるのか&#34;&gt;はじめに：Podcastは「稼げる」のか？
+        <description>&lt;img src="https://344blog.4thavenue.info/pd-monetize-cover.png" alt="Featured image of post Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く " /&gt;&lt;h2 id=&#34;はじめにpodcastは稼げるのか&#34;&gt;はじめに：Podcastは「稼げる」のか？
 &lt;/h2&gt;&lt;p&gt;音声だけで配信できる手軽さから、Podcastを始める人は年々増えている。&lt;/p&gt;
 &lt;p&gt;とはいえ「Podcastで生活できるの？」と聞かれれば、多くの人は首をかしげるだろう。&lt;/p&gt;
 &lt;p&gt;YouTubeのように広告モデルが浸透しているわけではなく、人気キャスター以外はなかなか収益に結びつかない印象が強い。しかし世界に目を向けると、Podcastを軸にキャリアを築き、数十億円規模の契約を得ているキャスターも存在する。&lt;/p&gt;
