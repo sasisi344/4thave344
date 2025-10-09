@@ -5,7 +5,7 @@ discripstion: 200words min
 date: '2025-10-05T19:07:59+09:00'
 draft: false
 slug: podcast-monetization-japan
-image: pd-monetize-cover.png
+image: img/pd-monetize-cover.png
 categories:
     - Tech
 tags:

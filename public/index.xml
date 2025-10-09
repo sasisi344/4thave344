@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>34feed</title>
-        <link>https://344blog.4thavenue.info/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on 34feed</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
         <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Thu, 09 Oct 2025 19:10:23 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Oct 2025 19:10:23 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AgentKitという名の未来ツール｜AIが自動化する世界の入口で</title>
-        <link>https://344blog.4thavenue.info/p/agentkit-openai-pre/</link>
+        <link>http://localhost:1313/p/agentkit-openai-pre/</link>
         <pubDate>Thu, 09 Oct 2025 19:10:23 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/agentkit-openai-pre/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post AgentKitという名の未来ツール｜AIが自動化する世界の入口で" /&gt;&lt;p&gt;AIが勝手に動く時代が、いよいよ現実味を帯びてきた。&lt;br&gt;
+        <guid>http://localhost:1313/p/agentkit-openai-pre/</guid>
+        <description>&lt;img src="http://localhost:1313/img/default-cover.png" alt="Featured image of post AgentKitという名の未来ツール｜AIが自動化する世界の入口で" /&gt;&lt;p&gt;AIが勝手に動く時代が、いよいよ現実味を帯びてきた。&lt;br&gt;
 OpenAIが公開した「&lt;strong&gt;AgentKit&lt;/strong&gt;」は、その未来への扉を静かに開くツールだ。&lt;/p&gt;
 &lt;p&gt;これをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。&lt;br&gt;
 だがその真価は、AIが何を“できるか”よりも、「&lt;strong&gt;人がAIに何を任せるか&lt;/strong&gt;」という設計思想にある。&lt;/p&gt;
@@ -65,11 +65,11 @@ AIは命令された通りに働くが、命令の“設計”まではしてく
         </item>
         <item>
         <title>“今夜に効く”はウソ？牡蠣と亜鉛のほんとうの働き方</title>
-        <link>https://344blog.4thavenue.info/p/oyster-night-eat/</link>
+        <link>http://localhost:1313/p/oyster-night-eat/</link>
         <pubDate>Wed, 08 Oct 2025 07:35:18 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/oyster-night-eat/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/oyster-night.png" alt="Featured image of post “今夜に効く”はウソ？牡蠣と亜鉛のほんとうの働き方" /&gt;&lt;h2 id=&#34;カキフライを食べて気づいた違和感&#34;&gt;カキフライを食べて気づいた違和感
+        <guid>http://localhost:1313/p/oyster-night-eat/</guid>
+        <description>&lt;img src="http://localhost:1313/img/oyster-night.png" alt="Featured image of post “今夜に効く”はウソ？牡蠣と亜鉛のほんとうの働き方" /&gt;&lt;h2 id=&#34;カキフライを食べて気づいた違和感&#34;&gt;カキフライを食べて気づいた違和感
 &lt;/h2&gt;&lt;p&gt;昼と夜に惣菜のカキフライを食べながら、ふと考えた。&lt;/p&gt;
 &lt;p&gt;「これ、今日の夜に効くのか？」と。&lt;/p&gt;
 &lt;p&gt;牡蠣は「海のミルク」とも呼ばれ、男性の精力によい食材の代表格。&lt;/p&gt;
@@ -117,11 +117,11 @@ AIは命令された通りに働くが、命令の“設計”まではしてく
         </item>
         <item>
         <title>AIコンパニオンが人気な本当の理由｜Z世代が「癒やし」を大人に求めなくなった時代</title>
-        <link>https://344blog.4thavenue.info/p/ai-compani-future/</link>
+        <link>http://localhost:1313/p/ai-compani-future/</link>
         <pubDate>Mon, 06 Oct 2025 12:11:17 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/ai-compani-future/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/aicompani-thumbnail.png" alt="Featured image of post AIコンパニオンが人気な本当の理由｜Z世代が「癒やし」を大人に求めなくなった時代" /&gt;&lt;h2 id=&#34;はじめに不安を語る大人たちと希望を語るai&#34;&gt;はじめに：不安を語る大人たちと、希望を語るAI
+        <guid>http://localhost:1313/p/ai-compani-future/</guid>
+        <description>&lt;img src="http://localhost:1313/img/aicompani-thumbnail.png" alt="Featured image of post AIコンパニオンが人気な本当の理由｜Z世代が「癒やし」を大人に求めなくなった時代" /&gt;&lt;h2 id=&#34;はじめに不安を語る大人たちと希望を語るai&#34;&gt;はじめに：不安を語る大人たちと、希望を語るAI
 &lt;/h2&gt;&lt;p&gt;根本的な原因は、大人にあると思う。&lt;/p&gt;
 &lt;p&gt;ニュースを見れば、先行き不安な話題ばかり。政治も経済も「このままではまずい」としか言わない。&lt;/p&gt;
 &lt;p&gt;そんな報道を見ている大人たちが、同じ言葉を繰り返す。つまりオールドメディアと呼ばれる情報の大半が、マイナスの感情を増幅している。見るだけで気分が沈むようなニュースばかりだ。&lt;/p&gt;
@@ -208,11 +208,11 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く </title>
-        <link>https://344blog.4thavenue.info/p/podcast-monetization-japan/</link>
+        <link>http://localhost:1313/p/podcast-monetization-japan/</link>
         <pubDate>Sun, 05 Oct 2025 19:07:59 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/podcast-monetization-japan/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/pd-monetize-cover.png" alt="Featured image of post Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く " /&gt;&lt;h2 id=&#34;はじめにpodcastは稼げるのか&#34;&gt;はじめに：Podcastは「稼げる」のか？
+        <guid>http://localhost:1313/p/podcast-monetization-japan/</guid>
+        <description>&lt;img src="http://localhost:1313/img/pd-monetize-cover.png" alt="Featured image of post Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く " /&gt;&lt;h2 id=&#34;はじめにpodcastは稼げるのか&#34;&gt;はじめに：Podcastは「稼げる」のか？
 &lt;/h2&gt;&lt;p&gt;音声だけで配信できる手軽さから、Podcastを始める人は年々増えている。&lt;/p&gt;
 &lt;p&gt;とはいえ「Podcastで生活できるの？」と聞かれれば、多くの人は首をかしげるだろう。&lt;/p&gt;
 &lt;p&gt;YouTubeのように広告モデルが浸透しているわけではなく、人気キャスター以外はなかなか収益に結びつかない印象が強い。しかし世界に目を向けると、Podcastを軸にキャリアを築き、数十億円規模の契約を得ているキャスターも存在する。&lt;/p&gt;
@@ -359,11 +359,11 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>SNSでのURL共有：QRコードとテキストリンク、そしてAI時代の未来</title>
-        <link>https://344blog.4thavenue.info/p/snsqr-url/</link>
+        <link>http://localhost:1313/p/snsqr-url/</link>
         <pubDate>Wed, 01 Oct 2025 23:54:32 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/snsqr-url/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post SNSでのURL共有：QRコードとテキストリンク、そしてAI時代の未来" /&gt;&lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ
+        <guid>http://localhost:1313/p/snsqr-url/</guid>
+        <description>&lt;img src="http://localhost:1313/img/default-cover.png" alt="Featured image of post SNSでのURL共有：QRコードとテキストリンク、そしてAI時代の未来" /&gt;&lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ
 &lt;/h2&gt;&lt;p&gt;最近ふと思ったのだが、SNSでウェブサイトのURLを共有する時、テキストで貼るよりもQRコードを画像で投稿した方がいいんじゃないだろうか。見た目も良いし、なんとなく今っぽい気もする。&lt;/p&gt;
 &lt;p&gt;でも実際のところ、どちらが本当に便利なんだろう？&lt;/p&gt;
 &lt;h2 id=&#34;テキストurl-vs-qrコード&#34;&gt;テキストURL vs QRコード
@@ -499,11 +499,11 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>祭りと「時代錯誤」──喧嘩と文化継承のはざまで</title>
-        <link>https://344blog.4thavenue.info/p/jidai-sakugo-saiji/</link>
+        <link>http://localhost:1313/p/jidai-sakugo-saiji/</link>
         <pubDate>Sun, 28 Sep 2025 12:52:30 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/jidai-sakugo-saiji/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/cover-news.png" alt="Featured image of post 祭りと「時代錯誤」──喧嘩と文化継承のはざまで" /&gt;&lt;h2 id=&#34;時代錯誤という批判について&#34;&gt;「時代錯誤」という批判について
+        <guid>http://localhost:1313/p/jidai-sakugo-saiji/</guid>
+        <description>&lt;img src="http://localhost:1313/img/cover-news.png" alt="Featured image of post 祭りと「時代錯誤」──喧嘩と文化継承のはざまで" /&gt;&lt;h2 id=&#34;時代錯誤という批判について&#34;&gt;「時代錯誤」という批判について
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yomiuri.co.jp/national/20250928-OYT1T50033/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.yomiuri.co.jp/national/20250928-OYT1T50033/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;祭りの延長で喧嘩頻発しすぎて警察出動が多い件で、この記事に対するコメントで気になったのは「時代錯誤」の文言。&lt;/p&gt;
@@ -525,11 +525,11 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>10秒決断術で人生が変わるかもしれない話</title>
-        <link>https://344blog.4thavenue.info/p/10sec-decision/</link>
+        <link>http://localhost:1313/p/10sec-decision/</link>
         <pubDate>Sat, 27 Sep 2025 14:15:41 +0900</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/10sec-decision/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post 10秒決断術で人生が変わるかもしれない話" /&gt;&lt;p&gt;私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか&amp;hellip;。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。&lt;/p&gt;
+        <guid>http://localhost:1313/p/10sec-decision/</guid>
+        <description>&lt;img src="http://localhost:1313/img/default-cover.png" alt="Featured image of post 10秒決断術で人生が変わるかもしれない話" /&gt;&lt;p&gt;私は何事も慎重すぎるタイプで、小さな判断でもあれこれ悩んでしまう癖があった。朝食に何を食べるか、どの服を着るか、メールの返信をどう書くか&amp;hellip;。そんな些細なことまで含めて、一日中頭の中で考え続けてしまう。&lt;/p&gt;
 &lt;p&gt;気づけば、本当に考えるべき重要な課題に頭が回らなくなっていた。これじゃダメだと思って、何か良い方法はないかと探していたときに出会ったのが「10秒で判断する」という考え方だった。&lt;/p&gt;
 &lt;h2 id=&#34;10秒考えてダメなら潔く諦める&#34;&gt;10秒考えてダメなら、潔く諦める
 &lt;/h2&gt;&lt;p&gt;ルールは至ってシンプル。&lt;strong&gt;物事を10秒で考える。10秒考えて答えが出ないならあきらめる。&lt;/strong&gt;&lt;/p&gt;
@@ -557,10 +557,10 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>About</title>
-        <link>https://344blog.4thavenue.info/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;h2 id=&#34;サイトについて&#34;&gt;サイトについて
 &lt;/h2&gt;&lt;p&gt;「34feed」は、個人的なジャーナルを中心に、日常で気になったことや学びを記録している雑記サイトです。カテゴリは &lt;strong&gt;Jurnal&lt;/strong&gt;、&lt;strong&gt;Tips&lt;/strong&gt;、&lt;strong&gt;Loccal&lt;/strong&gt; を軸に構成しており、読み物としても備忘録としても楽しめる内容を目指しています。&lt;/p&gt;
 &lt;h2 id=&#34;運営者について&#34;&gt;運営者について
@@ -582,10 +582,10 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>プライバシーポリシー</title>
-        <link>https://344blog.4thavenue.info/privacy-policy/</link>
+        <link>http://localhost:1313/privacy-policy/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/privacy-policy/</guid>
+        <guid>http://localhost:1313/privacy-policy/</guid>
         <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに
 &lt;/h2&gt;&lt;p&gt;本プライバシーポリシーは、当サイト（以下「本サイト」といいます）が利用者の個人情報をどのように収集・利用・保護するかを明らかにするものです。日本国内の関連法令（個人情報保護法等）および欧州一般データ保護規則（GDPR）を遵守し、利用者のプライバシーを尊重します。&lt;/p&gt;
 &lt;h2 id=&#34;収集する情報&#34;&gt;収集する情報
@@ -650,18 +650,18 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>Archives</title>
-        <link>https://344blog.4thavenue.info/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://344blog.4thavenue.info/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -693,10 +693,10 @@ AIコンパニオンアプリの世界市場規模と将来予測（2024年141�
         </item>
         <item>
         <title>Search</title>
-        <link>https://344blog.4thavenue.info/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
