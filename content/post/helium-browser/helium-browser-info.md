@@ -3,7 +3,7 @@ title: 'Heliumブラウザの所感'
 discripstion: 200words min
 date: '2025-10-11T00:37:54+09:00'
 draft: false
-slug: 
+slug: helium-browser
 image: img/default-cover.png
 categories:
     - tech
