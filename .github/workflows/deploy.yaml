@@ -5,6 +5,17 @@ name: ブログをXserverにデプロイ
 on:
   push:
     branches: [ main ]
+  # 手動実行も可能にする
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'デプロイ環境'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+        - production
+        - staging
 
 # 実行する処理
 jobs:
@@ -16,19 +27,32 @@ jobs:
     # ステップ1: ソースコードをダウンロード
     - name: リポジトリのコードを取得
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 全履歴を取得（差分検出のため）
     
-    # ステップ2: Hugoをインストール
+    # ステップ2: Hugoリソースのキャッシュ
+    - name: Cache Hugo resources
+      uses: actions/cache@v4
+      env:
+        cache-name: cache-hugo-resources
+      with:
+        path: resources
+        key: ${{ env.cache-name }}-${{ hashFiles('**/go.mod', '**/go.sum', '**/hugo.toml') }}
+        restore-keys: |
+          ${{ env.cache-name }}-
+    
+    # ステップ3: Hugoをセットアップ
     - name: Hugoをセットアップ
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
         extended: true
     
-    # ステップ3: ブログをビルド（HTMLファイルを生成）
+    # ステップ4: ブログをビルド（最適化）
     - name: ブログをビルド
-      run: hugo --minify
+      run: hugo --minify --gc --cleanDestinationDir
     
-    # ステップ4: Xserverにファイルをアップロード
+    # ステップ5: Xserverにファイルをアップロード
     - name: Xserverにデプロイ
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
@@ -37,7 +61,10 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./public/          # Hugoが生成したファイルの場所
         server-dir: /4thavenue.info/public_html/344blog/    # Xserverのアップロード先
-        delete-excluded: true         # 除外ファイルを削除
+        # 最適化オプション
+        log-level: minimal
+        dry-run: false
+        # 差分アップロードの最適化
         dangerous-clean-slate: true   # サーバー上の余分なファイルを削除
         exclude: |
           **/.git*
