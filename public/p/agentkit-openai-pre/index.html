@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AIが勝手に動く時代が、いよいよ現実味を帯びてきた。\nOpenAIが公開した「AgentKit」は、その未来への扉を静かに開くツールだ。\nこれをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。\nだがその真価は、AIが何を“できるか”よりも、「人がAIに何を任せるか」という設計思想にある。\nhttps://openai.com/index/introducing-agentkit/\nAgentKitとはなにか AgentKitは、AIに“仕事の流れ”を与えるための設計ツール群だ。\nノードを線でつなぐチャート形式で、たとえば「朝になったらメールを整理 → カレンダーを確認 → 優先タスクをまとめる」といった一連の動作をAIに覚えさせることができる。\n構成要素はざっくり以下の通り。\nAgent Builder：AIの動作フローを可視化して設計 Connector Registry：外部サービスとの接続管理 ChatKit：チャットUIとしてAIを組み込む Evals / RFT：AIの性能評価と再学習 Guardrails：暴走防止の安全柵 つまり、AIに「タスクの流れ」「判断の条件」「連携先ツール」を全部まとめて教え込むための“総合環境”といえる。\nできること、できないこと AgentKitが得意なのは、人が考えずに済む単純処理の整理と自動化だ。\nたとえば、朝のメール分類やチームの進捗サマリー、会議前の情報収集。\n「AIが先に下ごしらえをしておいて、人が最後に判断する」ような用途がもっとも向いている。\nただし万能ではない。\n創造・交渉・責任の伴う判断など、“人間の社会的文脈”を前提にした作業はまだAIの領域外だ。\n会議で意見を出す、交渉で譲歩を決める、曖昧なニュアンスを読み取る――こうしたことは、AIがフローチャートをなぞるだけでは到達できない。\n外部ツール接続とセキュリティの境界線 AgentKitの魅力のひとつは、外部サービス（メール、カレンダー、GitHubなど）をコネクトして、現実世界とつなげられる点だ。\nだが、同時にそこが最大のリスク領域でもある。\nMCP（Model Context Protocol）という仕組みを通じて、AIが外部ツールを直接操作できるようになると、便利さと引き換えにセキュリティの難易度が跳ね上がる。\n万が一、悪意あるサーバや改ざんされたツールに接続してしまえば、AIは“自動的に間違いを実行する存在”になりかねない。\n現状の法制度でも、こうしたAIの誤動作に対する責任範囲は曖昧だ。\nデータの保護、契約上の責任、APIの使用許諾など――技術よりも**「どう守るか」**が議論の中心になる時代が来ている。\nAIを動かすことより、安全に動かす仕組みをどう設計するかが、今後の分水嶺になるだろう。\nツールは人次第、AIもまた然り 結局のところ、AgentKitも他のAIツールも「使う人次第」だ。\nAIは命令された通りに働くが、命令の“設計”まではしてくれない。\nつまり「AIに何を任せるか」を決めるのは、いつだって人間側の責任だ。\nこのツールが生み出すのは「完全自動化」ではなく、「人間が考える余白を増やすための補助輪」だと捉えると、ちょうどいい距離感になる。\nこれからの未来へ 今後、AgentKitのような仕組みが一般化すれば、AIはより「環境の一部」として動くようになる。\nスケジュール管理、仕事の下準備、チームの進捗整理――こうした作業をAIが裏で支え、人間はより創造的な部分に集中できるようになる。\nただし、その未来が明るいかどうかは、安全設計の上に成り立つ。\n外部ツールとの連携を広げるほど、AIは強くなるが、同時に脆くもなる。\nだからこそ、未来を設計するエンジニアやユーザーは、「便利さ」と「信頼性」を同じテーブルで語れることが求められていく。\nAIが動く世界では、「任せる力」と「制御する知恵」の両方が、私たちの新しいスキルになる。\nこのAgentKitというツールは、ただの“AIの箱”ではない。\nそれは、人がAIに「何を任せ、何を自分でやるか」を問うための鏡でもあるのだ。\n">
+<title>AgentKitという名の未来ツール｜AIが自動化する世界の入口で</title>
+
+<link rel='canonical' href='https://344blog.4thavenue.info/p/agentkit-openai-pre/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="AgentKitという名の未来ツール｜AIが自動化する世界の入口で">
+<meta property='og:description' content="AIが勝手に動く時代が、いよいよ現実味を帯びてきた。\nOpenAIが公開した「AgentKit」は、その未来への扉を静かに開くツールだ。\nこれをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。\nだがその真価は、AIが何を“できるか”よりも、「人がAIに何を任せるか」という設計思想にある。\nhttps://openai.com/index/introducing-agentkit/\nAgentKitとはなにか AgentKitは、AIに“仕事の流れ”を与えるための設計ツール群だ。\nノードを線でつなぐチャート形式で、たとえば「朝になったらメールを整理 → カレンダーを確認 → 優先タスクをまとめる」といった一連の動作をAIに覚えさせることができる。\n構成要素はざっくり以下の通り。\nAgent Builder：AIの動作フローを可視化して設計 Connector Registry：外部サービスとの接続管理 ChatKit：チャットUIとしてAIを組み込む Evals / RFT：AIの性能評価と再学習 Guardrails：暴走防止の安全柵 つまり、AIに「タスクの流れ」「判断の条件」「連携先ツール」を全部まとめて教え込むための“総合環境”といえる。\nできること、できないこと AgentKitが得意なのは、人が考えずに済む単純処理の整理と自動化だ。\nたとえば、朝のメール分類やチームの進捗サマリー、会議前の情報収集。\n「AIが先に下ごしらえをしておいて、人が最後に判断する」ような用途がもっとも向いている。\nただし万能ではない。\n創造・交渉・責任の伴う判断など、“人間の社会的文脈”を前提にした作業はまだAIの領域外だ。\n会議で意見を出す、交渉で譲歩を決める、曖昧なニュアンスを読み取る――こうしたことは、AIがフローチャートをなぞるだけでは到達できない。\n外部ツール接続とセキュリティの境界線 AgentKitの魅力のひとつは、外部サービス（メール、カレンダー、GitHubなど）をコネクトして、現実世界とつなげられる点だ。\nだが、同時にそこが最大のリスク領域でもある。\nMCP（Model Context Protocol）という仕組みを通じて、AIが外部ツールを直接操作できるようになると、便利さと引き換えにセキュリティの難易度が跳ね上がる。\n万が一、悪意あるサーバや改ざんされたツールに接続してしまえば、AIは“自動的に間違いを実行する存在”になりかねない。\n現状の法制度でも、こうしたAIの誤動作に対する責任範囲は曖昧だ。\nデータの保護、契約上の責任、APIの使用許諾など――技術よりも**「どう守るか」**が議論の中心になる時代が来ている。\nAIを動かすことより、安全に動かす仕組みをどう設計するかが、今後の分水嶺になるだろう。\nツールは人次第、AIもまた然り 結局のところ、AgentKitも他のAIツールも「使う人次第」だ。\nAIは命令された通りに働くが、命令の“設計”まではしてくれない。\nつまり「AIに何を任せるか」を決めるのは、いつだって人間側の責任だ。\nこのツールが生み出すのは「完全自動化」ではなく、「人間が考える余白を増やすための補助輪」だと捉えると、ちょうどいい距離感になる。\nこれからの未来へ 今後、AgentKitのような仕組みが一般化すれば、AIはより「環境の一部」として動くようになる。\nスケジュール管理、仕事の下準備、チームの進捗整理――こうした作業をAIが裏で支え、人間はより創造的な部分に集中できるようになる。\nただし、その未来が明るいかどうかは、安全設計の上に成り立つ。\n外部ツールとの連携を広げるほど、AIは強くなるが、同時に脆くもなる。\nだからこそ、未来を設計するエンジニアやユーザーは、「便利さ」と「信頼性」を同じテーブルで語れることが求められていく。\nAIが動く世界では、「任せる力」と「制御する知恵」の両方が、私たちの新しいスキルになる。\nこのAgentKitというツールは、ただの“AIの箱”ではない。\nそれは、人がAIに「何を任せ、何を自分でやるか」を問うための鏡でもあるのだ。\n">
+<meta property='og:url' content='https://344blog.4thavenue.info/p/agentkit-openai-pre/'>
+<meta property='og:site_name' content='34feed'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OpenAI' /><meta property='article:tag' content='AgentKit' /><meta property='article:tag' content='AgentAI' /><meta property='article:published_time' content='2025-10-09T19:10:23&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T19:10:23&#43;09:00'/><meta property='og:image' content='https://344blog.4thavenue.info/img/default-cover.png' />
+<meta name="twitter:title" content="AgentKitという名の未来ツール｜AIが自動化する世界の入口で">
+<meta name="twitter:description" content="AIが勝手に動く時代が、いよいよ現実味を帯びてきた。\nOpenAIが公開した「AgentKit」は、その未来への扉を静かに開くツールだ。\nこれをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。\nだがその真価は、AIが何を“できるか”よりも、「人がAIに何を任せるか」という設計思想にある。\nhttps://openai.com/index/introducing-agentkit/\nAgentKitとはなにか AgentKitは、AIに“仕事の流れ”を与えるための設計ツール群だ。\nノードを線でつなぐチャート形式で、たとえば「朝になったらメールを整理 → カレンダーを確認 → 優先タスクをまとめる」といった一連の動作をAIに覚えさせることができる。\n構成要素はざっくり以下の通り。\nAgent Builder：AIの動作フローを可視化して設計 Connector Registry：外部サービスとの接続管理 ChatKit：チャットUIとしてAIを組み込む Evals / RFT：AIの性能評価と再学習 Guardrails：暴走防止の安全柵 つまり、AIに「タスクの流れ」「判断の条件」「連携先ツール」を全部まとめて教え込むための“総合環境”といえる。\nできること、できないこと AgentKitが得意なのは、人が考えずに済む単純処理の整理と自動化だ。\nたとえば、朝のメール分類やチームの進捗サマリー、会議前の情報収集。\n「AIが先に下ごしらえをしておいて、人が最後に判断する」ような用途がもっとも向いている。\nただし万能ではない。\n創造・交渉・責任の伴う判断など、“人間の社会的文脈”を前提にした作業はまだAIの領域外だ。\n会議で意見を出す、交渉で譲歩を決める、曖昧なニュアンスを読み取る――こうしたことは、AIがフローチャートをなぞるだけでは到達できない。\n外部ツール接続とセキュリティの境界線 AgentKitの魅力のひとつは、外部サービス（メール、カレンダー、GitHubなど）をコネクトして、現実世界とつなげられる点だ。\nだが、同時にそこが最大のリスク領域でもある。\nMCP（Model Context Protocol）という仕組みを通じて、AIが外部ツールを直接操作できるようになると、便利さと引き換えにセキュリティの難易度が跳ね上がる。\n万が一、悪意あるサーバや改ざんされたツールに接続してしまえば、AIは“自動的に間違いを実行する存在”になりかねない。\n現状の法制度でも、こうしたAIの誤動作に対する責任範囲は曖昧だ。\nデータの保護、契約上の責任、APIの使用許諾など――技術よりも**「どう守るか」**が議論の中心になる時代が来ている。\nAIを動かすことより、安全に動かす仕組みをどう設計するかが、今後の分水嶺になるだろう。\nツールは人次第、AIもまた然り 結局のところ、AgentKitも他のAIツールも「使う人次第」だ。\nAIは命令された通りに働くが、命令の“設計”まではしてくれない。\nつまり「AIに何を任せるか」を決めるのは、いつだって人間側の責任だ。\nこのツールが生み出すのは「完全自動化」ではなく、「人間が考える余白を増やすための補助輪」だと捉えると、ちょうどいい距離感になる。\nこれからの未来へ 今後、AgentKitのような仕組みが一般化すれば、AIはより「環境の一部」として動くようになる。\nスケジュール管理、仕事の下準備、チームの進捗整理――こうした作業をAIが裏で支え、人間はより創造的な部分に集中できるようになる。\nただし、その未来が明るいかどうかは、安全設計の上に成り立つ。\n外部ツールとの連携を広げるほど、AIは強くなるが、同時に脆くもなる。\nだからこそ、未来を設計するエンジニアやユーザーは、「便利さ」と「信頼性」を同じテーブルで語れることが求められていく。\nAIが動く世界では、「任せる力」と「制御する知恵」の両方が、私たちの新しいスキルになる。\nこのAgentKitというツールは、ただの“AIの箱”ではない。\nそれは、人がAIに「何を任せ、何を自分でやるか」を問うための鏡でもあるのだ。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://344blog.4thavenue.info/img/default-cover.png' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7VW60YTX4F"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7VW60YTX4F');
+        }
+      </script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="メニューを開く・閉じる">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_8d8174065396eea2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🌵</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">34feed</a></h1>
+            <h2 class="site-description">i might be a blogger</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://x.com/sasisi344'
+                        target="_blank"
+                        title="twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/sasisi344/'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Instagram">
+  <title>Instagram</title>
+  <rect x="4" y="4" width="16" height="16" rx="4"/>
+  <circle cx="12" cy="12" r="3"/>
+  <path d="M16.5 7.5h.01"/>
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.threads.net/@sasisi344'
+                        target="_blank"
+                        title="Threads"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Threads">
+  <title>Threads</title>
+  <!-- Outer spiral-like contour -->
+  <path d="M18 8.5c-1.1-2.3-3.4-4-6.2-4C7.1 4.5 4 7.4 4 12s3.1 7.5 7.8 7.5c4.6 0 7.7-3.5 7.7-8.5 0-1.1-.2-2.1-.5-3"/>
+  <!-- Inner 'a' form -->
+  <path d="M8 12.2c0-2.1 1.8-3.7 4-3.7s4 1.2 4 3.5v5"/>
+  <path d="M11 14h5"/>
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>ダークモード</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目次</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#agentkitとはなにか">AgentKitとはなにか</a></li>
+    <li><a href="#できることできないこと">できること、できないこと</a></li>
+    <li><a href="#外部ツール接続とセキュリティの境界線">外部ツール接続とセキュリティの境界線</a></li>
+    <li><a href="#ツールは人次第aiもまた然り">ツールは人次第、AIもまた然り</a></li>
+    <li><a href="#これからの未来へ">これからの未来へ</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/agentkit-openai-pre/">
+                
+                    <img src="/img/default-cover.png" loading="lazy" alt="Featured image of post AgentKitという名の未来ツール｜AIが自動化する世界の入口で" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/tech/" >
+                Tech
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/agentkit-openai-pre/">AgentKitという名の未来ツール｜AIが自動化する世界の入口で</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">10月 09, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 1分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>AIが勝手に動く時代が、いよいよ現実味を帯びてきた。<br>
+OpenAIが公開した「<strong>AgentKit</strong>」は、その未来への扉を静かに開くツールだ。</p>
+<p>これをひとことで言えば、「AIエージェント（＝目的を持って自律的に動くAI）」を作るための仕組みをまとめた開発キット。<br>
+だがその真価は、AIが何を“できるか”よりも、「<strong>人がAIに何を任せるか</strong>」という設計思想にある。</p>
+<p><a class="link" href="https://openai.com/index/introducing-agentkit/"  target="_blank" rel="noopener"
+    >https://openai.com/index/introducing-agentkit/</a></p>
+<h2 id="agentkitとはなにか">AgentKitとはなにか
+</h2><p>AgentKitは、AIに“仕事の流れ”を与えるための設計ツール群だ。<br>
+ノードを線でつなぐチャート形式で、たとえば「朝になったらメールを整理 → カレンダーを確認 → 優先タスクをまとめる」といった一連の動作をAIに覚えさせることができる。</p>
+<p>構成要素はざっくり以下の通り。</p>
+<ul>
+<li><strong>Agent Builder</strong>：AIの動作フローを可視化して設計</li>
+<li><strong>Connector Registry</strong>：外部サービスとの接続管理</li>
+<li><strong>ChatKit</strong>：チャットUIとしてAIを組み込む</li>
+<li><strong>Evals / RFT</strong>：AIの性能評価と再学習</li>
+<li><strong>Guardrails</strong>：暴走防止の安全柵</li>
+</ul>
+<p>つまり、AIに「タスクの流れ」「判断の条件」「連携先ツール」を全部まとめて教え込むための“総合環境”といえる。</p>
+<h2 id="できることできないこと">できること、できないこと
+</h2><p>AgentKitが得意なのは、<strong>人が考えずに済む単純処理の整理と自動化</strong>だ。<br>
+たとえば、朝のメール分類やチームの進捗サマリー、会議前の情報収集。<br>
+「AIが先に下ごしらえをしておいて、人が最後に判断する」ような用途がもっとも向いている。</p>
+<p>ただし万能ではない。<br>
+創造・交渉・責任の伴う判断など、“人間の社会的文脈”を前提にした作業はまだAIの領域外だ。<br>
+会議で意見を出す、交渉で譲歩を決める、曖昧なニュアンスを読み取る――こうしたことは、AIがフローチャートをなぞるだけでは到達できない。</p>
+<h2 id="外部ツール接続とセキュリティの境界線">外部ツール接続とセキュリティの境界線
+</h2><p>AgentKitの魅力のひとつは、外部サービス（メール、カレンダー、GitHubなど）をコネクトして、現実世界とつなげられる点だ。<br>
+だが、同時にそこが<strong>最大のリスク領域</strong>でもある。</p>
+<p>MCP（Model Context Protocol）という仕組みを通じて、AIが外部ツールを直接操作できるようになると、便利さと引き換えにセキュリティの難易度が跳ね上がる。<br>
+万が一、悪意あるサーバや改ざんされたツールに接続してしまえば、AIは“自動的に間違いを実行する存在”になりかねない。</p>
+<p>現状の法制度でも、こうしたAIの誤動作に対する責任範囲は曖昧だ。<br>
+データの保護、契約上の責任、APIの使用許諾など――技術よりも**「どう守るか」**が議論の中心になる時代が来ている。</p>
+<p>AIを動かすことより、<strong>安全に動かす仕組みをどう設計するか</strong>が、今後の分水嶺になるだろう。</p>
+<h2 id="ツールは人次第aiもまた然り">ツールは人次第、AIもまた然り
+</h2><p>結局のところ、AgentKitも他のAIツールも「使う人次第」だ。<br>
+AIは命令された通りに働くが、命令の“設計”まではしてくれない。<br>
+つまり「AIに何を任せるか」を決めるのは、いつだって人間側の責任だ。</p>
+<p>このツールが生み出すのは「完全自動化」ではなく、「<strong>人間が考える余白を増やすための補助輪</strong>」だと捉えると、ちょうどいい距離感になる。</p>
+<h2 id="これからの未来へ">これからの未来へ
+</h2><p>今後、AgentKitのような仕組みが一般化すれば、AIはより「環境の一部」として動くようになる。<br>
+スケジュール管理、仕事の下準備、チームの進捗整理――こうした作業をAIが裏で支え、人間はより創造的な部分に集中できるようになる。</p>
+<p>ただし、その未来が明るいかどうかは、安全設計の上に成り立つ。<br>
+外部ツールとの連携を広げるほど、AIは強くなるが、同時に脆くもなる。<br>
+だからこそ、未来を設計するエンジニアやユーザーは、<strong>「便利さ」と「信頼性」を同じテーブルで語れること</strong>が求められていく。</p>
+<p>AIが動く世界では、「任せる力」と「制御する知恵」の両方が、私たちの新しいスキルになる。</p>
+<p>このAgentKitというツールは、ただの“AIの箱”ではない。<br>
+それは、人がAIに「何を任せ、何を自分でやるか」を問うための鏡でもあるのだ。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/openai/">OpenAI</a>
+        
+            <a href="/tags/agentkit/">AgentKit</a>
+        
+            <a href="/tags/agentai/">AgentAI</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">関連するコンテンツ</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/youtube-premium-lite-info/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/img/default-cover.png" loading="lazy" data-key="youtube-premium-lite-info" data-hash="/img/default-cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">YouTubeで広告がウザいなら、月780円の「Premium Lite」がちょうどいい？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/podcast-monetization-japan/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/img/pd-monetize-cover.png" loading="lazy" data-key="podcast-monetization-japan" data-hash="/img/pd-monetize-cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Podcastの収益化は可能か？世界の成功事例と日米市場のリアルを読み解く </h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="sasisi344/4thave344"
+    data-repo-id="R_kgDOPvwBxA"
+    data-category="General"
+    data-category-id="DIC_kwDOPvwBxM4Cv8tH"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 34feed
+    </section>
+    
+    <section class="powerby">
+        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> で構築されています。 <br />
+        テーマ <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> は <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> によって設計されています。
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
