@@ -28,6 +28,58 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 
 In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.**
 
+## よく使うコマンド
+
+### ローカル作業
+```bash
+# 記事編集後のビルド
+hugo --minify --cleanDestinationDir
+
+# ビルド結果のデプロイ
+git add public/
+git commit -m "Update site: [記事タイトル]"
+git push
+
+# ローカルサーバー起動（確認用）
+hugo server
+
+# 新記事作成
+hugo new posts/[記事名].md
+
+# ドラフト記事も含めてビルド
+hugo --buildDrafts --minify --cleanDestinationDir
+```
+
+### バッチファイル使用（Windows）
+```bash
+# ビルドのみ
+build.bat
+
+# ビルド+デプロイ
+build-and-deploy.bat
+
+# デプロイのみ
+deploy.bat
+```
+
+### PowerShellスクリプト使用
+```powershell
+# ビルドのみ
+.\hugo-workflow.ps1 build
+
+# デプロイのみ
+.\hugo-workflow.ps1 deploy
+
+# ビルド+デプロイ
+.\hugo-workflow.ps1 all
+
+# ローカルサーバー起動
+.\hugo-workflow.ps1 server
+
+# 新記事作成
+.\hugo-workflow.ps1 new
+```
+
 ## Update theme manually
 
 Run:

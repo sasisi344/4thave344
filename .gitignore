@@ -1,9 +1,8 @@
-public
 resources
 .hugo_build.lock
 
 # Hugo build output
-public/
+# public/  # ローカルビルド結果をGitに含めるためコメントアウト
 
 # Hugo build lock file
 .hugo_build.lock

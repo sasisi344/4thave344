@@ -7,15 +7,6 @@ on:
     branches: [ main ]
   # 手動実行も可能にする
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'デプロイ環境'
-        required: true
-        default: 'production'
-        type: choice
-        options:
-        - production
-        - staging
 
 # 実行する処理
 jobs:
@@ -28,44 +19,22 @@ jobs:
     - name: リポジトリのコードを取得
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # 全履歴を取得（差分検出のため）
+        fetch-depth: 1  # 最小限の履歴で高速化
     
-    # ステップ2: Hugoリソースのキャッシュ
-    - name: Cache Hugo resources
-      uses: actions/cache@v4
-      env:
-        cache-name: cache-hugo-resources
-      with:
-        path: resources
-        key: ${{ env.cache-name }}-${{ hashFiles('**/go.mod', '**/go.sum', '**/hugo.toml') }}
-        restore-keys: |
-          ${{ env.cache-name }}-
-    
-    # ステップ3: Hugoをセットアップ
-    - name: Hugoをセットアップ
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
-        extended: true
-    
-    # ステップ4: ブログをビルド（最適化）
-    - name: ブログをビルド
-      run: hugo --minify --gc --cleanDestinationDir
-    
-    # ステップ5: Xserverにファイルをアップロード
+    # ステップ2: Xserverにファイルをアップロード（ビルド済みpublicフォルダ）
     - name: Xserverにデプロイ
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public/          # Hugoが生成したファイルの場所
+        local-dir: ./public/          # ローカルでビルド済みのpublicフォルダ
         server-dir: /4thavenue.info/public_html/344blog/    # Xserverのアップロード先
         # 最適化オプション
         log-level: minimal
         dry-run: false
         # 差分アップロードの最適化
-        dangerous-clean-slate: true   # サーバー上の余分なファイルを削除
+        dangerous-clean-slate: false   # 差分アップロードで高速化
         exclude: |
           **/.git*
           **/.git*/**
