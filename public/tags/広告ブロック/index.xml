@@ -1,33 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>広告ブロック on 34feed</title>
-        <link>https://344blog.4thavenue.info/tags/%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/</link>
-        <description>Recent content in 広告ブロック on 34feed</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
-        <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Sat, 11 Oct 2025 00:37:54 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/tags/%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Heliumブラウザの所感</title>
-        <link>https://344blog.4thavenue.info/p/helium-browser/</link>
-        <pubDate>Sat, 11 Oct 2025 00:37:54 +0900</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/helium-browser/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post Heliumブラウザの所感" /&gt;&lt;p&gt;HeliumブラウザはChromeベースのブラウザ。&lt;/p&gt;
-&lt;p&gt;他と違うのは、ウェブ広告カット機能がプリインストールされていること。インストールするだけで広告のないネットサーフィンが楽しめるってわけ。&lt;/p&gt;
-&lt;p&gt;機能性はChromeとほぼ同じ。&lt;/p&gt;
-&lt;p&gt;初回起動時は、他の主要ブラウザからブックマークと機能性をインポートすることができる。&lt;/p&gt;
-&lt;h2 id=&#34;広告カット率を他と比べたら&#34;&gt;広告カット率を他と比べたら
-&lt;/h2&gt;&lt;p&gt;広告カット具合はブラウザの拡張機能があるのと大して変わらない。&lt;/p&gt;
-&lt;p&gt;他の広告カットブラウザと比べるなら、Braveと同じくらいで、Vivaldiよりは高性能といえる。Chromeに拡張機能でAdblock入れるくらいなら、Heliumを使う選択肢にするのもあり。&lt;/p&gt;
-&lt;h2 id=&#34;ブラウザ内で分割表示が可能&#34;&gt;ブラウザ内で分割表示が可能
-&lt;/h2&gt;&lt;p&gt;ブラウザ内でマルチウィンドウ化できるので、ウェブサービスを複数同時に使いたい場合は便利。&lt;/p&gt;
-&lt;p&gt;AIを使ってウェブリサーチとか要約をする目的で使うなら、左のウィンドウでサイトを開いて、右のウィンドウでAIツールを使うことができるので、そういう使い方をしているなら便利かも。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://helium.computer/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://helium.computer/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>広告ブロック on 34feed</title><link>https://344blog.4thavenue.info/tags/%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/</link><description>Recent content in 広告ブロック on 34feed</description><generator>Hugo -- gohugo.io</generator><language>ja</language><managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor><webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster><lastBuildDate>Sat, 11 Oct 2025 00:37:54 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/tags/%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>Heliumブラウザの所感</title><link>https://344blog.4thavenue.info/p/helium-browser/</link><pubDate>Sat, 11 Oct 2025 00:37:54 +0900</pubDate><author>sasisi344@gmail.com (さしし@sasisi344)</author><guid>https://344blog.4thavenue.info/p/helium-browser/</guid><description>&lt;img src="https://344blog.4thavenue.info/img/default-cover.png" alt="Featured image of post Heliumブラウザの所感" />&lt;p>HeliumブラウザはChromeベースのブラウザ。&lt;/p>
+&lt;p>他と違うのは、ウェブ広告カット機能がプリインストールされていること。インストールするだけで広告のないネットサーフィンが楽しめるってわけ。&lt;/p>
+&lt;p>機能性はChromeとほぼ同じ。&lt;/p>
+&lt;p>初回起動時は、他の主要ブラウザからブックマークと機能性をインポートすることができる。&lt;/p>
+&lt;h2 id="広告カット率を他と比べたら">広告カット率を他と比べたら
+&lt;/h2>&lt;p>広告カット具合はブラウザの拡張機能があるのと大して変わらない。&lt;/p>
+&lt;p>他の広告カットブラウザと比べるなら、Braveと同じくらいで、Vivaldiよりは高性能といえる。Chromeに拡張機能でAdblock入れるくらいなら、Heliumを使う選択肢にするのもあり。&lt;/p>
+&lt;h2 id="ブラウザ内で分割表示が可能">ブラウザ内で分割表示が可能
+&lt;/h2>&lt;p>ブラウザ内でマルチウィンドウ化できるので、ウェブサービスを複数同時に使いたい場合は便利。&lt;/p>
+&lt;p>AIを使ってウェブリサーチとか要約をする目的で使うなら、左のウィンドウでサイトを開いて、右のウィンドウでAIツールを使うことができるので、そういう使い方をしているなら便利かも。&lt;/p>
+&lt;p>&lt;a class="link" href="https://helium.computer/" target="_blank" rel="noopener"
+>https://helium.computer/&lt;/a>&lt;/p></description></item></channel></rss>
