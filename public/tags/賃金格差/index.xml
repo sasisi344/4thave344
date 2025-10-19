@@ -1,224 +1,203 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>賃金格差 on 34feed</title>
-        <link>https://344blog.4thavenue.info/tags/%E8%B3%83%E9%87%91%E6%A0%BC%E5%B7%AE/</link>
-        <description>Recent content in 賃金格差 on 34feed</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor>
-        <webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster>
-        <lastBuildDate>Wed, 15 Oct 2025 00:36:47 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/tags/%E8%B3%83%E9%87%91%E6%A0%BC%E5%B7%AE/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>1ドル＝150円の世界で考える「働く時間の価値」</title>
-        <link>https://344blog.4thavenue.info/p/doll150-average-lifetime/</link>
-        <pubDate>Wed, 15 Oct 2025 00:36:47 +0900</pubDate>
-        <author>sasisi344@gmail.com (さしし@sasisi344)</author>
-        <guid>https://344blog.4thavenue.info/p/doll150-average-lifetime/</guid>
-        <description>&lt;img src="https://344blog.4thavenue.info/img/doll150-average-lifetime.png" alt="Featured image of post 1ドル＝150円の世界で考える「働く時間の価値」" /&gt;&lt;h2 id=&#34;為替150円時代の感覚&#34;&gt;為替150円時代の“感覚”
-&lt;/h2&gt;&lt;p&gt;――日本とアメリカ、東西都市で見た賃金と購買力のリアル&lt;/p&gt;
-&lt;p&gt;2025年の為替相場は、1ドル＝150円前後で安定している。&lt;/p&gt;
-&lt;p&gt;この数値だけを見ると「円が弱い」「ドルが強い」といわれるが、現地で暮らす人にとってそれはどれほどの意味を持つのだろう。&lt;/p&gt;
-&lt;p&gt;日本円で生活する人は円で給与を受け取り、ドルで生活する人はドルで支払う。為替の数字だけを眺めても、“その国でどれだけ働けば何を買えるか”という現実の感覚は掴みにくい。&lt;/p&gt;
-&lt;p&gt;だから今回は、最低賃金を基準に「&lt;strong&gt;特定の商品を買うために何時間働くかは日本と米国で差があるのだろうか&lt;/strong&gt;」という視点で考えてみた。&lt;/p&gt;
-&lt;h2 id=&#34;各都市の最低賃金と物価目安&#34;&gt;各都市の最低賃金と物価目安
-&lt;/h2&gt;&lt;p&gt;そんなわけで、比較対象は日本（東京・大阪）とアメリカ（ワシントンDC・ロサンゼルス）を例にする。東西の首都圏をサンプルにしたのは、調べる中で微妙な格差があったから。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;地域&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;最低賃金（時給）&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;通貨&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;為替換算（1ドル=150円）&lt;/th&gt;
-          &lt;th&gt;備考&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;東京&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,163円&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;円&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$7.75&lt;/td&gt;
-          &lt;td&gt;2025年時点の現行水準&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大阪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;1,177円&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;円&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$7.85&lt;/td&gt;
-          &lt;td&gt;改定予定含む&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ワシントンDC&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.95&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ドル&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約2,692円&lt;/td&gt;
-          &lt;td&gt;東海岸・首都圏&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ロサンゼルス&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.87&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;ドル&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約2,680円&lt;/td&gt;
-          &lt;td&gt;西海岸・州条例独自&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;名目レートで見ると、&lt;strong&gt;アメリカの最低賃金は日本の約2.3倍&lt;/strong&gt;。  ただし生活費や税制の違いを無視しているので単純比較はできない。&lt;/p&gt;
-&lt;p&gt;だからこそ、次に「同じものを買うのに何時間かかるか」で見てみよう。&lt;/p&gt;
-&lt;h3 id=&#34;ビッグマックを買うまでに必要な労働時間&#34;&gt;ビッグマックを買うまでに必要な労働時間
-&lt;/h3&gt;&lt;p&gt;そういえば経済指標に「ビッグマック指数」なんてのがあったなぁと。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;地域&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;ビッグマック価格（単品）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;最低賃金&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;必要時間&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;約分換算&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;東京&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥1,163&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;0.41時間&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約25分&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大阪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥480&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥1,177&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;0.41時間&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約24分&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ワシントンDC&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$5.50&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.95&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;0.31時間&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約18分&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ロサンゼルス&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$5.50&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.87&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;0.31時間&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約18.5分&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;つまり、&lt;strong&gt;アメリカの最低賃金労働者は、日本よりおよそ1.4倍速くビッグマックを買える&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;それでも「1時間働けば3個食べられる」という点では、日本も極端に劣っているわけではない。&lt;/p&gt;
-&lt;h3 id=&#34;iphone17無印モデルを買うまでに必要な労働時間&#34;&gt;iPhone17（無印モデル）を買うまでに必要な労働時間
-&lt;/h3&gt;&lt;p&gt;ビッグマック指数は各国の食品物価に左右されるし、時期的なものもあるので参考程度だよなぁと感じる。━━なら、グローバルで販売価格がある程度は統一されている商品がいいのではないだろうか。&lt;/p&gt;
-&lt;p&gt;てことで、iPhone17を例にしてみることに。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;地域&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;価格（為替150円換算）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;最低賃金&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;必要労働時間&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;約労働日数（8時間/日）&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;東京&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥129,800&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥1,163&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;&lt;strong&gt;111.6時間&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約14日&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大阪&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥129,800&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;¥1,177&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;&lt;strong&gt;110.3時間&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約13.8日&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ワシントンDC&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$799（約119,850円）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.95（約2,692円）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;&lt;strong&gt;44.5時間&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約5.6日&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ロサンゼルス&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$799（約119,850円）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;$17.87（約2,680円）&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;&lt;strong&gt;44.7時間&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約5.6日&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;ここで差がはっきり出る。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iPhoneを買うまでの労働時間は、日本のほうが約2.5倍長い。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ただし、生活必需品ではない高価格品ほどこの“時間格差”は拡大する傾向がある。&lt;/p&gt;
-&lt;h2 id=&#34;賃金の中央値から見る実感的な平均&#34;&gt;賃金の「中央値」から見る実感的な平均
-&lt;/h2&gt;&lt;p&gt;OECD統計などによると、各国の平均所得は以下の通り。（概算年収ベース、2024年推定値で平均値よりも中央値寄り）&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;地域&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;平均年収（円換算）&lt;/th&gt;
-          &lt;th style=&#34;text-align: right&#34;&gt;1時間あたり（概算）&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;日本&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約520万円&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約2,200円&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;アメリカ&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約960万円&lt;/td&gt;
-          &lt;td style=&#34;text-align: right&#34;&gt;約4,100円&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;単純計算で、&lt;strong&gt;日本の平均的労働者はアメリカの半分程度の時給ベース所得&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;ただし生活費・社会保障・税制度・教育コストなどを含めた実質購買力では、その差はもう少し縮まる。&lt;/p&gt;
-&lt;p&gt;つまり、「為替1ドル150円」は円で生きる人にとって、大きな数字差に見える。だが、“現地で働き現地で暮らす”限りは極端な体感差にはなりにくい。&lt;/p&gt;
-&lt;h3 id=&#34;現地通貨で生きるということ&#34;&gt;現地通貨で生きるということ
-&lt;/h3&gt;&lt;p&gt;ドル円レートが150円になっても、  アメリカ人が1ドルで生き、日本人が100円硬貨で生きている限り、&lt;strong&gt;生活はそれぞれの通貨の“内部論理”で完結している。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;為替が問題になるのは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;輸出入企業&lt;/li&gt;
-&lt;li&gt;海外旅行者&lt;/li&gt;
-&lt;li&gt;投資家&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;といった「通貨をまたいで取引する人々」にとってだ。&lt;/p&gt;
-&lt;p&gt;逆に言えば、為替というのは“国同士の経済力の翻訳装置”であって、現地で働く個人にとっては「他言語の辞書」のような存在に過ぎない。&lt;/p&gt;
-&lt;h3 id=&#34;為替は何のためにあるのか&#34;&gt;為替は何のためにあるのか
-&lt;/h3&gt;&lt;p&gt;為替とは、&lt;strong&gt;異なる経済圏の価値を相互に変換するための共通単位&lt;/strong&gt;だ。&lt;/p&gt;
-&lt;p&gt;かつては金や銀などの「物理的な価値」が裏づけとなっていたが、いまはその代わりに&lt;strong&gt;信用と取引量&lt;/strong&gt;が支えている。&lt;/p&gt;
-&lt;p&gt;つまり、1ドル＝150円というのは、「アメリカの経済と日本の経済を結ぶ信頼関係の現在値」でもある。&lt;/p&gt;
-&lt;p&gt;円が安い時期には、輸出企業が儲かり、旅行者が増える。&lt;/p&gt;
-&lt;p&gt;ドルが強い時期には、アメリカの消費者が海外製品を安く買える。&lt;/p&gt;
-&lt;p&gt;このバランスをとるために為替があり、私たちはその波の中で日々の“働く時間”を測っている。&lt;/p&gt;
-&lt;h2 id=&#34;結論為替は国の格ではなく時間の翻訳機&#34;&gt;結論：為替は「国の格」ではなく「時間の翻訳機」
-&lt;/h2&gt;&lt;p&gt;為替は国のプライドを競う数字ではない。&lt;/p&gt;
-&lt;p&gt;むしろ、それぞれの国の「1時間の価値」を可視化する装置だ。&lt;/p&gt;
-&lt;p&gt;1ドル＝150円の世界で見えてくるのは、&lt;strong&gt;“お金”よりも“時間”の方が普遍的な尺度だ&lt;/strong&gt;という事実。&lt;/p&gt;
-&lt;p&gt;ビッグマックでもiPhoneでも、手に入れるために必要な“時間”がその国のリアルな物価であり、&lt;br&gt;
-そしてその“時間の重み”こそが、為替の向こうにある本当の格差だ。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;参考値一覧2025年10月時点推定&#34;&gt;参考値一覧（2025年10月時点・推定）
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;為替：1ドル＝150円&lt;/li&gt;
-&lt;li&gt;東京最低賃金：1,163円／時&lt;/li&gt;
-&lt;li&gt;大阪最低賃金：1,177円／時&lt;/li&gt;
-&lt;li&gt;ワシントンDC最低賃金：$17.95／時&lt;/li&gt;
-&lt;li&gt;カリフォルニア州（LA市）：$17.87／時&lt;/li&gt;
-&lt;li&gt;ビッグマック単品：日本480円／米国$5.50&lt;/li&gt;
-&lt;li&gt;iPhone17（無印）：日本129,800円／米国$799&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>賃金格差 on 34feed</title><link>https://344blog.4thavenue.info/tags/%E8%B3%83%E9%87%91%E6%A0%BC%E5%B7%AE/</link><description>Recent content in 賃金格差 on 34feed</description><generator>Hugo -- gohugo.io</generator><language>ja</language><managingEditor>sasisi344@gmail.com (さしし@sasisi344)</managingEditor><webMaster>sasisi344@gmail.com (さしし@sasisi344)</webMaster><lastBuildDate>Wed, 15 Oct 2025 00:36:47 +0900</lastBuildDate><atom:link href="https://344blog.4thavenue.info/tags/%E8%B3%83%E9%87%91%E6%A0%BC%E5%B7%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>1ドル＝150円の世界で考える「働く時間の価値」</title><link>https://344blog.4thavenue.info/p/doll150-average-lifetime/</link><pubDate>Wed, 15 Oct 2025 00:36:47 +0900</pubDate><author>sasisi344@gmail.com (さしし@sasisi344)</author><guid>https://344blog.4thavenue.info/p/doll150-average-lifetime/</guid><description>&lt;img src="https://344blog.4thavenue.info/img/doll150-average-lifetime.png" alt="Featured image of post 1ドル＝150円の世界で考える「働く時間の価値」" />&lt;h2 id="為替150円時代の感覚">為替150円時代の“感覚”
+&lt;/h2>&lt;p>――日本とアメリカ、東西都市で見た賃金と購買力のリアル&lt;/p>
+&lt;p>2025年の為替相場は、1ドル＝150円前後で安定している。&lt;/p>
+&lt;p>この数値だけを見ると「円が弱い」「ドルが強い」といわれるが、現地で暮らす人にとってそれはどれほどの意味を持つのだろう。&lt;/p>
+&lt;p>日本円で生活する人は円で給与を受け取り、ドルで生活する人はドルで支払う。為替の数字だけを眺めても、“その国でどれだけ働けば何を買えるか”という現実の感覚は掴みにくい。&lt;/p>
+&lt;p>だから今回は、最低賃金を基準に「&lt;strong>特定の商品を買うために何時間働くかは日本と米国で差があるのだろうか&lt;/strong>」という視点で考えてみた。&lt;/p>
+&lt;h2 id="各都市の最低賃金と物価目安">各都市の最低賃金と物価目安
+&lt;/h2>&lt;p>そんなわけで、比較対象は日本（東京・大阪）とアメリカ（ワシントンDC・ロサンゼルス）を例にする。東西の首都圏をサンプルにしたのは、調べる中で微妙な格差があったから。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>地域&lt;/th>
+&lt;th style="text-align: right">最低賃金（時給）&lt;/th>
+&lt;th style="text-align: left">通貨&lt;/th>
+&lt;th style="text-align: right">為替換算（1ドル=150円）&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>東京&lt;/td>
+&lt;td style="text-align: right">1,163円&lt;/td>
+&lt;td style="text-align: left">円&lt;/td>
+&lt;td style="text-align: right">$7.75&lt;/td>
+&lt;td>2025年時点の現行水準&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>大阪&lt;/td>
+&lt;td style="text-align: right">1,177円&lt;/td>
+&lt;td style="text-align: left">円&lt;/td>
+&lt;td style="text-align: right">$7.85&lt;/td>
+&lt;td>改定予定含む&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ワシントンDC&lt;/td>
+&lt;td style="text-align: right">$17.95&lt;/td>
+&lt;td style="text-align: left">ドル&lt;/td>
+&lt;td style="text-align: right">約2,692円&lt;/td>
+&lt;td>東海岸・首都圏&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ロサンゼルス&lt;/td>
+&lt;td style="text-align: right">$17.87&lt;/td>
+&lt;td style="text-align: left">ドル&lt;/td>
+&lt;td style="text-align: right">約2,680円&lt;/td>
+&lt;td>西海岸・州条例独自&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>名目レートで見ると、&lt;strong>アメリカの最低賃金は日本の約2.3倍&lt;/strong>。 ただし生活費や税制の違いを無視しているので単純比較はできない。&lt;/p>
+&lt;p>だからこそ、次に「同じものを買うのに何時間かかるか」で見てみよう。&lt;/p>
+&lt;h3 id="ビッグマックを買うまでに必要な労働時間">ビッグマックを買うまでに必要な労働時間
+&lt;/h3>&lt;p>そういえば経済指標に「ビッグマック指数」なんてのがあったなぁと。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>地域&lt;/th>
+&lt;th style="text-align: right">ビッグマック価格（単品）&lt;/th>
+&lt;th style="text-align: right">最低賃金&lt;/th>
+&lt;th style="text-align: right">必要時間&lt;/th>
+&lt;th style="text-align: right">約分換算&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>東京&lt;/td>
+&lt;td style="text-align: right">¥480&lt;/td>
+&lt;td style="text-align: right">¥1,163&lt;/td>
+&lt;td style="text-align: right">0.41時間&lt;/td>
+&lt;td style="text-align: right">約25分&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>大阪&lt;/td>
+&lt;td style="text-align: right">¥480&lt;/td>
+&lt;td style="text-align: right">¥1,177&lt;/td>
+&lt;td style="text-align: right">0.41時間&lt;/td>
+&lt;td style="text-align: right">約24分&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ワシントンDC&lt;/td>
+&lt;td style="text-align: right">$5.50&lt;/td>
+&lt;td style="text-align: right">$17.95&lt;/td>
+&lt;td style="text-align: right">0.31時間&lt;/td>
+&lt;td style="text-align: right">約18分&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ロサンゼルス&lt;/td>
+&lt;td style="text-align: right">$5.50&lt;/td>
+&lt;td style="text-align: right">$17.87&lt;/td>
+&lt;td style="text-align: right">0.31時間&lt;/td>
+&lt;td style="text-align: right">約18.5分&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>つまり、&lt;strong>アメリカの最低賃金労働者は、日本よりおよそ1.4倍速くビッグマックを買える&lt;/strong>。&lt;/p>
+&lt;p>それでも「1時間働けば3個食べられる」という点では、日本も極端に劣っているわけではない。&lt;/p>
+&lt;h3 id="iphone17無印モデルを買うまでに必要な労働時間">iPhone17（無印モデル）を買うまでに必要な労働時間
+&lt;/h3>&lt;p>ビッグマック指数は各国の食品物価に左右されるし、時期的なものもあるので参考程度だよなぁと感じる。━━なら、グローバルで販売価格がある程度は統一されている商品がいいのではないだろうか。&lt;/p>
+&lt;p>てことで、iPhone17を例にしてみることに。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>地域&lt;/th>
+&lt;th style="text-align: right">価格（為替150円換算）&lt;/th>
+&lt;th style="text-align: right">最低賃金&lt;/th>
+&lt;th style="text-align: right">必要労働時間&lt;/th>
+&lt;th style="text-align: right">約労働日数（8時間/日）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>東京&lt;/td>
+&lt;td style="text-align: right">¥129,800&lt;/td>
+&lt;td style="text-align: right">¥1,163&lt;/td>
+&lt;td style="text-align: right">&lt;strong>111.6時間&lt;/strong>&lt;/td>
+&lt;td style="text-align: right">約14日&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>大阪&lt;/td>
+&lt;td style="text-align: right">¥129,800&lt;/td>
+&lt;td style="text-align: right">¥1,177&lt;/td>
+&lt;td style="text-align: right">&lt;strong>110.3時間&lt;/strong>&lt;/td>
+&lt;td style="text-align: right">約13.8日&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ワシントンDC&lt;/td>
+&lt;td style="text-align: right">$799（約119,850円）&lt;/td>
+&lt;td style="text-align: right">$17.95（約2,692円）&lt;/td>
+&lt;td style="text-align: right">&lt;strong>44.5時間&lt;/strong>&lt;/td>
+&lt;td style="text-align: right">約5.6日&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ロサンゼルス&lt;/td>
+&lt;td style="text-align: right">$799（約119,850円）&lt;/td>
+&lt;td style="text-align: right">$17.87（約2,680円）&lt;/td>
+&lt;td style="text-align: right">&lt;strong>44.7時間&lt;/strong>&lt;/td>
+&lt;td style="text-align: right">約5.6日&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>ここで差がはっきり出る。&lt;/p>
+&lt;p>&lt;strong>iPhoneを買うまでの労働時間は、日本のほうが約2.5倍長い。&lt;/strong>&lt;/p>
+&lt;p>ただし、生活必需品ではない高価格品ほどこの“時間格差”は拡大する傾向がある。&lt;/p>
+&lt;h2 id="賃金の中央値から見る実感的な平均">賃金の「中央値」から見る実感的な平均
+&lt;/h2>&lt;p>OECD統計などによると、各国の平均所得は以下の通り。（概算年収ベース、2024年推定値で平均値よりも中央値寄り）&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>地域&lt;/th>
+&lt;th style="text-align: right">平均年収（円換算）&lt;/th>
+&lt;th style="text-align: right">1時間あたり（概算）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>日本&lt;/td>
+&lt;td style="text-align: right">約520万円&lt;/td>
+&lt;td style="text-align: right">約2,200円&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>アメリカ&lt;/td>
+&lt;td style="text-align: right">約960万円&lt;/td>
+&lt;td style="text-align: right">約4,100円&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>単純計算で、&lt;strong>日本の平均的労働者はアメリカの半分程度の時給ベース所得&lt;/strong>。&lt;/p>
+&lt;p>ただし生活費・社会保障・税制度・教育コストなどを含めた実質購買力では、その差はもう少し縮まる。&lt;/p>
+&lt;p>つまり、「為替1ドル150円」は円で生きる人にとって、大きな数字差に見える。だが、“現地で働き現地で暮らす”限りは極端な体感差にはなりにくい。&lt;/p>
+&lt;h3 id="現地通貨で生きるということ">現地通貨で生きるということ
+&lt;/h3>&lt;p>ドル円レートが150円になっても、 アメリカ人が1ドルで生き、日本人が100円硬貨で生きている限り、&lt;strong>生活はそれぞれの通貨の“内部論理”で完結している。&lt;/strong>&lt;/p>
+&lt;p>為替が問題になるのは、&lt;/p>
+&lt;ul>
+&lt;li>輸出入企業&lt;/li>
+&lt;li>海外旅行者&lt;/li>
+&lt;li>投資家&lt;/li>
+&lt;/ul>
+&lt;p>といった「通貨をまたいで取引する人々」にとってだ。&lt;/p>
+&lt;p>逆に言えば、為替というのは“国同士の経済力の翻訳装置”であって、現地で働く個人にとっては「他言語の辞書」のような存在に過ぎない。&lt;/p>
+&lt;h3 id="為替は何のためにあるのか">為替は何のためにあるのか
+&lt;/h3>&lt;p>為替とは、&lt;strong>異なる経済圏の価値を相互に変換するための共通単位&lt;/strong>だ。&lt;/p>
+&lt;p>かつては金や銀などの「物理的な価値」が裏づけとなっていたが、いまはその代わりに&lt;strong>信用と取引量&lt;/strong>が支えている。&lt;/p>
+&lt;p>つまり、1ドル＝150円というのは、「アメリカの経済と日本の経済を結ぶ信頼関係の現在値」でもある。&lt;/p>
+&lt;p>円が安い時期には、輸出企業が儲かり、旅行者が増える。&lt;/p>
+&lt;p>ドルが強い時期には、アメリカの消費者が海外製品を安く買える。&lt;/p>
+&lt;p>このバランスをとるために為替があり、私たちはその波の中で日々の“働く時間”を測っている。&lt;/p>
+&lt;h2 id="結論為替は国の格ではなく時間の翻訳機">結論：為替は「国の格」ではなく「時間の翻訳機」
+&lt;/h2>&lt;p>為替は国のプライドを競う数字ではない。&lt;/p>
+&lt;p>むしろ、それぞれの国の「1時間の価値」を可視化する装置だ。&lt;/p>
+&lt;p>1ドル＝150円の世界で見えてくるのは、&lt;strong>“お金”よりも“時間”の方が普遍的な尺度だ&lt;/strong>という事実。&lt;/p>
+&lt;p>ビッグマックでもiPhoneでも、手に入れるために必要な“時間”がその国のリアルな物価であり、&lt;br>
+そしてその“時間の重み”こそが、為替の向こうにある本当の格差だ。&lt;/p>
+&lt;hr>
+&lt;h3 id="参考値一覧2025年10月時点推定">参考値一覧（2025年10月時点・推定）
+&lt;/h3>&lt;ul>
+&lt;li>為替：1ドル＝150円&lt;/li>
+&lt;li>東京最低賃金：1,163円／時&lt;/li>
+&lt;li>大阪最低賃金：1,177円／時&lt;/li>
+&lt;li>ワシントンDC最低賃金：$17.95／時&lt;/li>
+&lt;li>カリフォルニア州（LA市）：$17.87／時&lt;/li>
+&lt;li>ビッグマック単品：日本480円／米国$5.50&lt;/li>
+&lt;li>iPhone17（無印）：日本129,800円／米国$799&lt;/li>
+&lt;/ul></description></item></channel></rss>
