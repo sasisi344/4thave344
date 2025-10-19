@@ -34,11 +34,12 @@ jobs:
         log-level: minimal
         dry-run: false
         # 差分アップロードの最適化
-        dangerous-clean-slate: false   # 差分アップロードで高速化
+        dangerous-clean-slate: true   # 差分アップロードで高速化
         exclude: |
           **/.git*
           **/.git*/**
           **/node_modules/**
           .htaccess
           cgi-bin/
-          **/*柔軟剤*  # 柔軟剤関連のファイルをすべて除外
+          **/*柔軟剤*
+          **/*モテる*
