@@ -13,7 +13,7 @@ tags:
 author: "さしし"
 slug: moteru-fabric-softener
 summary: "女性が男性に使ってほしい柔軟剤ランキング。香水とは異なる、日常的な香りの力がモテに繋がる理由をデータで検証。"
-image: "images/default-cover.png"
+image: "img/default-cover.png"
 ---
 ## 柔軟剤は「香水の上位互換」？女性の本音
 

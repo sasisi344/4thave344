@@ -119,14 +119,16 @@ hugo new posts/記事名.md
 title: "記事タイトル（60文字以内推奨）"
 date: YYYY-MM-DDTHH:MM:SSZ
 draft: false  # 公開時はfalse、下書き時はtrue
-categories:
-  - カテゴリ  # 必須：Jurnal/News/Local/Tipsのいずれか
+slug: "記事のURLスラッグ（英数字とハイフンのみ）"  # 必須：URLに使用される
+categories: Jurnal  # 必須：Jurnal/News/Tips/techのいずれか
 tags:
-  - タグ1-3  # 必須：最低3つ、関連性の高いタグ
-author: "さしし"  # 必須
-description: "記事の説明文（200文字以内、SEO用）"  # 必須
-summary: "記事の要約（200文字以内、一覧表示用）"  # 必須
-thumbnail: "images/default-cover.jpg"  # 必須：static/images/配下の相対パス---
+  - タグ1  # 必須：最低3つ、関連性の高いタグ
+  - タグ2
+  - タグ3
+image: "img/default-cover.png"  # 必須：static/img/配下の相対パス
+author: "さしし"  # 推奨
+description: "記事の説明文（200文字以内、SEO用）"  # 推奨
+---
 ```
 
 ### フロントマター推奨項目
@@ -165,26 +167,33 @@ related: true  # 関連記事の自動表示
 
 ### 記事作成時のチェックリスト
 - [ ] タイトルは60文字以内で魅力的
-- [ ] カテゴリは適切に設定（Jurnal/News/Local/Tips）
-- [ ] タグは最低3つ、関連性の高いものを選択
-- [ ] 要約は200文字以内で記事の内容を簡潔に表現
+- [ ] カテゴリは適切に設定（Jurnal/News/Tips/tech）
+- [ ] slugは英数字とハイフンのみで設定
+- [ ] タグは最低3つ、最大でも5つ、関連性の高いものを選択
+- [ ] imageパスは`img/`で始まる正しい形式
 - [ ] サムネイル画像は適切なサイズ（推奨：1200x630px）
-- [ ] 説明文は160文字以内でSEOを意識
-- [ ] ドラフト設定を適切に管理
-- [ ] 日付は正しい形式で設定
+- [ ] descriptionは200文字程度でSEOを意識
+- [ ] draft設定を適切に管理（公開時はfalse）
+- [ ] 日付は正しい形式で設定（YYYY-MM-DDTHH:MM:SSZ）
 
 ### 画像管理ルール
-- 画像は `static/images/` ディレクトリに配置
+- 画像は `static/img/` ディレクトリに配置（imagesではない）
 - ファイル名は英数字とハイフンのみ使用
 - サムネイル画像：1200x630px（16:10比率）
 - OGP画像：1200x630px（16:10比率）
 - 記事内画像：最大幅800px、WebP形式推奨
 
 ### カテゴリ別記事の特徴
-- **Jurnal**: 日常の雑記、体験、日常のこと
-- **News**: ニュース記事のリアクション、新規情報など
-- **Local**: 地域ニュースだったり静岡県内のこと
-- **Tips**: アプリやGenAIを使ったうえでの体験をメモする
+- **Jurnal**: 日常の雑記、体験談、個人的な気づきや感想
+- **News**: ニュース記事のリアクション、社会批評、時事問題の考察
+- **Tips**: アプリやGenAIを使った体験、実用的なノウハウや情報
+- **tech**: 技術系記事、ブラウザやツールのレビュー、IT関連の話題
+
+### 画像ファイル命名規則
+- **default-cover.png**: デフォルト画像（Jurnal系記事）
+- **cover-news.png**: ニュース系記事用
+- **[記事名].png**: 個別記事専用画像
+- 画像は `static/img/` ディレクトリに配置
 
 ## デバッグ
 - Hugoのログレベルを上げる: `hugo server --logLevel debug`
