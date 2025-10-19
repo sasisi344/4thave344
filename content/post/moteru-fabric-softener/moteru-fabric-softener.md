@@ -11,9 +11,9 @@ tags:
   - 男性磨き
   - デート対策
 author: "さしし"
-description: "女性の声を集めたデータをもとに、モテる柔軟剤TOP5を紹介。香水よりも日常的に香れる魅力を解説。"
+slug: moteru-fabric-softener
 summary: "女性が男性に使ってほしい柔軟剤ランキング。香水とは異なる、日常的な香りの力がモテに繋がる理由をデータで検証。"
-thumbnail: "images/default-cover.jpg"
+image: "images/default-cover.png"
 ---
 ## 柔軟剤は「香水の上位互換」？女性の本音
 
