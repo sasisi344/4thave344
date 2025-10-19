@@ -3,11 +3,20 @@ languageCode = 'ja'
 title = '34feed'
 theme = 'hugo-theme-stack'
 
+# サイトマップ設定を追加
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [params]
   author = "さしし@sasisi344"
   description = "自分のインプットをアウトプットする感じの雑記ブログです。"
   keywords = ["tech", "programming", "ai", "machine learning"]
-  mainSections = ["Jurnal", "Blog", "Local"]
+  mainSections = ["Jurnal", "Tech", "Local"]
 
 [params.Author]
   name = "さしし@sasisi344"
