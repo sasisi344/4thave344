@@ -47,4 +47,3 @@ theme = 'hugo-theme-stack'
   weight = 30
     [menu.social.params]
     icon = "rss"
-

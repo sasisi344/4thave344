@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# ページネーション
+Disallow: /page/
+
+# タグアーカイブのページネーション
+Disallow: /tags/*/page/
+Disallow: /categories/*/page/
+
+# 検索ページ
+Disallow: /search/
+
+# プライベートページ
+Disallow: /private/
+
+# ドラフトページ
+Disallow: /draft/
+
+Sitemap: https://344blog.4thavenue.info/sitemap.xml
