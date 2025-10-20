@@ -1,0 +1,3 @@
+# サイトマップのContent-Typeをapplication/xmlに設定
+/sitemap.xml
+  Content-Type: application/xml
